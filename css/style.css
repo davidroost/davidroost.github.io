@@ -76,7 +76,19 @@
       background: black;
       margin-top: 3px;
       }
+      .greeting-section {
+      background-image: url('../content/background-sitka.png');
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
 
+      }
 
 /******* DESTOP VERSION *******/
 

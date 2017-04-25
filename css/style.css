@@ -13,7 +13,7 @@
       /*width: 960px;*/
       }
     body {
-      background-color: rgb(45, 45, 45);
+      background-color: rgb(223, 223, 223);
       }
     /*this makes the little logo at the top of the screen spin when you hover over it.*/
     .nav-logo {
@@ -41,7 +41,9 @@
       top: 0;
       width: 100%;
       background-color: white;
-      border-bottom: 2px solid rgb(227, 24, 55);
+      /*border-bottom: 2px solid rgb(227, 24, 55);*/
+      border-bottom: 2px solid rgb(84, 84, 84);
+
       }
     header{
       overflow: hidden;
@@ -64,6 +66,7 @@
       background: rgba(255,255,255,0.5);
       padding: 5px;
       display: block;
+      color: rgb(84, 84, 84);
       text-decoration: none;
       }
     nav ul li:first-child{
@@ -155,11 +158,12 @@
 
         }
       .portfolio-box{
-        height:200px;
+        height:250px;
         width:31%;
         margin:.75%;
         float:left;
-        border: 1px solid black;
+        border: 1.5px solid rgba(84, 84, 84, 0.44);
+        border-radius: 10px;
         min-height: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -181,6 +185,7 @@
 
       #sea-b {
         background-image: url('../content/sea-b-image-01.png');
+
       }
       #sf-city {
         background-image: url('../content/sf-city.png');
@@ -188,6 +193,29 @@
       #ali {
         background-image: url('../content/ali.jpg');
       }
+
+/*Hover Effect On Portfolio Images*/
+      .portfolio-box:hover .overlay {
+        opacity: 1;
+        }
+      .portfolio-box:hover .text {
+        opacity: 1;
+        }
+      .text {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 120px;
+        }
+      .overlay {
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        border-radius: 10px;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.75);
+        }
 
 /*********************** POP-UP WINDOW FOR PORTFOLIO SECTION ***********************/
 
@@ -207,15 +235,16 @@
       .popup-content {
         clear:both;
         border: 0px;
-        width: 75%;
+        width: 85%;
+        height: 90%;
         margin-left: auto;
         margin-right: auto;
-      }
+        }
       .popup {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
-        margin-top: 52px; /* Location of the box */
+        /*margin-top: 52px; /* Location of the box */*/
         left: 0;
         top: 0;
         width: 100%; /* Full width */
@@ -226,64 +255,35 @@
         background-color: white; /* Fallback color */
         border: 0px;
         }
-
-    .popup-left {
+      .popup-left {
         float: left;
         width: calc(69% - 10px);
-        height: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10px;
         border: 0px;
         text-align: left;
         }
-    .popup-right {
+      .popup-right {
         float: left;
         width: calc(29% - 1px); /*this is how you split the size of the content without having to add and subtract pixels*/
-        margin-left: 25px;
+        margin-left: 10px;
         margin-right: 5px;
         margin-bottom: 10px;
         margin-top: -15px;
         border: 0px;
         }
-
-
-
       .project-image {
-        /*display: inline-block;*/
-        /*height: 50px;*/
-        /*width:100%;*/
         padding-bottom: 25px;
         margin-left: auto;
         margin-right: auto;
-        /*height: 100%;
-        min-height: auto;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        background-position: center;*/
         }
-      /*#project-01-image-01 {
-        background-image: url('../content/sea-b-image-01.png');
-        }*/
-      /*#project-01-image-02 {
-        background-image: url('../content/sea-b-image-02.png');
+      .project-image img {
+        max-width: 100%;
+        max-height: 500px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid black;
         }
-      #project-01-image-02 {
-        background-image: url('../content/sea-b-image-03.png');
-        }*/
-
-.project-image img {
-    max-width: 100%;
-    /*min-width: 200px;*/
-    max-height: 500px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-
-    /*min-height: 200px;*/
-}
 
     /*** ABOUT ME SECTION ***/
       .about-section {
@@ -359,7 +359,23 @@
   .portfolio-box:nth-of-type(3) {
     margin-left: 1.5%;
     }
+.popup-left {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px;
+  }
+.popup-right {
+display: block;
+  width: 100%;
+  margin-left: 25px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border: 0px;
+    text-align: left;
 
+  }
 
 
   }

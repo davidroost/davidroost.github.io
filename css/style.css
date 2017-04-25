@@ -12,7 +12,9 @@
       margin:0 auto;
       /*width: 960px;*/
       }
-
+    body {
+      background-color: rgb(45, 45, 45);
+      }
     /*this makes the little logo at the top of the screen spin when you hover over it.*/
     .nav-logo {
       float: left;
@@ -78,15 +80,14 @@
       }
       .greeting-section {
       background-image: url('../content/background-sitka.png');
-  width: 100%;
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: white;
+      width: 100%;
+      min-height: auto;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      background-position: center;
+      text-align: center;
 
       }
 
@@ -159,6 +160,12 @@
         margin:.75%;
         float:left;
         border: 1px solid black;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
         }
       .portfolio-category .portfolio-box:first-of-type {
         margin-left: 1.5%;
@@ -170,6 +177,16 @@
         }
         .portfolio-category:last-of-type {
           margin-bottom: 10px;
+        }
+
+        #sea-b {
+          background-image: url('../content/Sea_B_Swimwear_Roost.png');
+        }
+        #sf-city {
+          background-image: url('../content/sf-city.png');
+        }
+        #ali {
+          background-image: url('../content/ali.jpg');
         }
     /*** ABOUT ME SECTION ***/
       .about-section {

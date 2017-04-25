@@ -180,7 +180,7 @@
       }
 
       #sea-b {
-        background-image: url('../content/Sea_B_Swimwear_Roost.png');
+        background-image: url('../content/sea-b-image-01.png');
       }
       #sf-city {
         background-image: url('../content/sf-city.png');
@@ -188,6 +188,103 @@
       #ali {
         background-image: url('../content/ali.jpg');
       }
+
+/*********************** POP-UP WINDOW FOR PORTFOLIO SECTION ***********************/
+
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        text-align: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        }
+      /* The Modal (background) */
+      .popup-content {
+        clear:both;
+        border: 0px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .popup {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        margin-top: 52px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto; /* Enable scroll if needed */
+        background-color: white; /* Fallback color */
+        border: 0px;
+        }
+
+    .popup-left {
+        float: left;
+        width: calc(69% - 10px);
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        border: 0px;
+        text-align: left;
+        }
+    .popup-right {
+        float: left;
+        width: calc(29% - 1px); /*this is how you split the size of the content without having to add and subtract pixels*/
+        margin-left: 25px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        margin-top: -15px;
+        border: 0px;
+        }
+
+
+
+      .project-image {
+        /*display: inline-block;*/
+        /*height: 50px;*/
+        /*width:100%;*/
+        padding-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        /*height: 100%;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;*/
+        }
+      /*#project-01-image-01 {
+        background-image: url('../content/sea-b-image-01.png');
+        }*/
+      /*#project-01-image-02 {
+        background-image: url('../content/sea-b-image-02.png');
+        }
+      #project-01-image-02 {
+        background-image: url('../content/sea-b-image-03.png');
+        }*/
+
+.project-image img {
+    max-width: 100%;
+    /*min-width: 200px;*/
+    max-height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+
+    /*min-height: 200px;*/
+}
+
     /*** ABOUT ME SECTION ***/
       .about-section {
         clear: both;
@@ -208,6 +305,16 @@
 
         }
 
+
+  .close-bottom {
+    clear: both;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #aaaaaa;
+    cursor: pointer;
+    }
 /******* TABLET VERSION *******/
 
     /* this is the style section for all screens (likely tablets) where the page

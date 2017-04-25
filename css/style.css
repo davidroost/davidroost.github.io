@@ -1,0 +1,218 @@
+/*David Roost Creative Website - Author: David Roost*/
+
+    /*This website was designed to be responsive. Which means it is designed multiple
+    ways to respond to the size of the screen it's being viewed on. I have chosen to
+    use three breakpoints. One for desktop screens, one for tablets, and one for mobile devices.*/
+
+/******* UNIVERSAL STYLING *******/
+
+    /*this section is the general over-arching styling for the content that
+    applies across all versions of the page regardless of the media responsiveness.*/
+    #container {
+      margin:0 auto;
+      /*width: 960px;*/
+      }
+
+    /*this makes the little logo at the top of the screen spin when you hover over it.*/
+    .nav-logo {
+      float: left;
+      border-radius: 60%;
+      margin-left: 15px;
+      margin-top: 15px;
+      -webkit-transition: -webkit-transform .5s ease-in-out;
+      transition: transform .5s ease-in-out;
+      }
+    .nav-logo:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      }
+
+    section {
+      border: 1px solid black;
+      }
+    h1 {
+      text-align: center;
+      }
+    .nav-section {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      border-bottom: 2px solid rgb(227, 24, 55);
+      }
+    header{
+      overflow: hidden;
+      }
+    .wrapper{
+      position: relative;
+      }
+    .nav-logo {
+      float: left;
+      }
+    nav {
+      float: right;
+      height: 50px;
+      }
+    ul li {
+      display: inline-block;
+      }
+    ul li a{
+      margin: 0 10px;
+      background: rgba(255,255,255,0.5);
+      padding: 5px;
+      display: block;
+      text-decoration: none;
+      }
+    nav ul li:first-child{
+      display:none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      }
+    .line{
+      width: 25px;
+      height: 3px;
+      background: black;
+      margin-top: 3px;
+      }
+
+
+/******* DESTOP VERSION *******/
+
+    /*the desktop version of this website will be shown
+    anytime the screen has a width greater than 769 pixels*/
+
+
+    /*** NAVIGATION SECTION ***/
+      /*ul {
+        float: right;
+        margin-right: 50px;
+      }
+      ul li {
+        display: inline-block;
+        vertical-align:middle;
+        }
+      ul li:first-child {
+        display:none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+      ul li a{
+        height:40px;
+        margin-left:10px;
+        margin-right: 10px;
+        padding: 10px;
+        }
+      .nav-section {
+        float:right;
+        overflow: hidden;
+
+        height: 60px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        border-bottom: 2px solid rgb(227, 24, 55);
+        }
+      .nav-section a {
+        text-decoration: none;
+        }
+      .nav-section li {
+        padding-top: 6px;
+        }
+      .line{
+        width: 2em;
+        height: 3px;
+        background: black;
+        margin-top: .25em;
+        }*/
+
+    /*** GREETING SECTION ***/
+      .greeting-section {
+        display: block;
+        margin-top: 70px;
+        height: 500px;
+        }
+
+    /*** PORTFOLIO SECTION ***/
+      .portfolio-section {
+
+        }
+      .portfolio-box{
+        height:200px;
+        width:31%;
+        margin:.75%;
+        float:left;
+        border: 1px solid black;
+        }
+      .portfolio-category .portfolio-box:first-of-type {
+        margin-left: 1.5%;
+      }
+
+        .portfolio-category {
+          clear:both;
+          text-align: center;
+        }
+        .portfolio-category:last-of-type {
+          margin-bottom: 10px;
+        }
+    /*** ABOUT ME SECTION ***/
+      .about-section {
+        clear: both;
+        display: block;
+        height: 500px;
+
+        }
+
+    /*** CONTACT ME SECTION ***/
+      .contact-section {
+        height: 500px;
+
+        }
+
+    /*** FOOTER SECTION ***/
+      footer {
+        height: 500px;
+
+        }
+
+/******* TABLET VERSION *******/
+
+    /* this is the style section for all screens (likely tablets) where the page
+    width is 768 pixles or less*/
+ @media screen and (max-width:768px){
+  nav {
+    height: 0px;
+    transition: 1s height;
+    float: none;
+    text-align:center;
+    }
+  .open{
+    height: 100px
+    }
+  nav ul li:first-child {
+    margin-top: 10px;
+    margin-right: 10px;
+    display:block;
+    }
+  ul li {
+    display: block;
+    }
+  .nav-logo {
+    float: none;
+    }
+  ul li{
+padding[';[]']-top: -25px;
+  }
+  }
+/******* MOBILE VERSION *******/
+
+    /* this is the style section for all screens (likely mobile devices) where the page
+    width is 480 pixels or less.*/
+
+    /*@media screen and (max-width:480px){
+
+    }*/

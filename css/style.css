@@ -171,23 +171,23 @@
         margin-left: 1.5%;
       }
 
-        .portfolio-category {
-          clear:both;
-          text-align: center;
-        }
-        .portfolio-category:last-of-type {
-          margin-bottom: 10px;
-        }
+      .portfolio-category {
+        clear:both;
+        text-align: center;
+      }
+      .portfolio-category:last-of-type {
+        margin-bottom: 10px;
+      }
 
-        #sea-b {
-          background-image: url('../content/Sea_B_Swimwear_Roost.png');
-        }
-        #sf-city {
-          background-image: url('../content/sf-city.png');
-        }
-        #ali {
-          background-image: url('../content/ali.jpg');
-        }
+      #sea-b {
+        background-image: url('../content/Sea_B_Swimwear_Roost.png');
+      }
+      #sf-city {
+        background-image: url('../content/sf-city.png');
+      }
+      #ali {
+        background-image: url('../content/ali.jpg');
+      }
     /*** ABOUT ME SECTION ***/
       .about-section {
         clear: both;

@@ -40,21 +40,21 @@
               <div class="line"></div>
               <div class="line"></div>
             </li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#greeting-section">Home</a></li>
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-section">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 <!-- ********************** GREETING SECTION ********************** -->
-    <section class="greeting-section">
+    <section class="greeting-section" id="greeting-section">
 greeting section
 
     </section>
 <!-- ********************** PORTFOLIO SECTION ********************** -->
-    <section class="portfolio-section">
+    <section class="portfolio-section" id="portfolio-section">
       <h1>Portfolio</h1>
     <div class="portfolio-category">
       <h2>Front End Web Development</h2>
@@ -68,18 +68,18 @@ greeting section
       <p>This is my paragaph. This is</p>
       <div class="portfolio-box" id="sea-b">
           <div class="overlay">
-            <div class="text">Sea B. Swimwear</div>
+              <div class="text">Sea B. Swimwear</div>
           </div>
         </div>
       <div class="portfolio-box" id="sf-city">
-        <div class="overlay">
-          <div class="text">SF City FC</div>
-        </div>
+          <div class="overlay">
+              <div class="text">SF City FC</div>
+          </div>
       </div>
       <div class="portfolio-box" id="ali">
-        <div class="overlay">
-          <div class="text">Ali + Geoff</div>
-        </div>
+          <div class="overlay">
+              <div class="text">Ali + Geoff</div>
+          </div>
       </div>
     </div>
     <div class="portfolio-category">
@@ -113,7 +113,7 @@ greeting section
     </section>
 <!-- ********************** POP-UP WINDOW FOR PORTFOLIO SECTION ********************** -->
 
-    <div class="popup">
+    <div class="popup" id="sea-b-popup">
       <a class="close">&times;</a>
 
       <section class="popup-content">
@@ -141,13 +141,41 @@ greeting section
       </section>
     </div>
 
+    <div class="popup" id="sf-city-popup">
+      <a class="close">&times;</a>
+
+      <section class="popup-content">
+        <section class="popup-left">
+          <div class="project-image">
+            <div><img src="content/sf-city.png"></img></div>
+            <div><img src="content/sea-b-image-02.png"></img></div>
+            <div><img src="content/sea-b-image-03.png"></img></div>
+          </div>
+        </section>
+        <section class="popup-right">
+          <h2>SF CITY Project Title</h2>
+          <h3>Category</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            finibus, nisi vel maximus auctor, mauris purus auctor nisl, eget
+            lacinia erat est ac est. In risus enim, lobortis eget ultricies
+            vel, congue at lectus. Curabitur ac egestas dolor. Aenean placerat,
+             mauris in consectetur malesuada, mi nunc sodales metus, sit amet
+             rhoncus diam sapien ut est. Sed mauris dolor, ultrices non ex sed,
+             suscipit bibendum nisi. Sed hendrerit lorem a condimentum gravida.
+             Morbi a tellus at purus auctor porta. Suspendisse maximus ipsum
+             itae magna cursus dictum. Vivamus et viverra libero.</p>
+          <a class="close-bottom">Close Window</a>
+        </section>
+      </section>
+    </div>
+
 
 <!-- ********************** ABOUT ME SECTION ********************** -->
-    <section class="about-section">
+    <section class="about-section" id="about-section">
       <h1>About Me</h1>
     </section>
 <!-- ********************** CONTACT ME SECTION ********************** -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact-section">
       <h1>Want To Work Together?</h1>
     </section>
 <!-- ********************** FOOTER SECTION ********************** -->

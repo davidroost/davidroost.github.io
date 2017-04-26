@@ -173,26 +173,41 @@
         }
       .portfolio-category .portfolio-box:first-of-type {
         margin-left: 1.5%;
-      }
+        }
 
       .portfolio-category {
         clear:both;
         text-align: center;
-      }
+        }
       .portfolio-category:last-of-type {
         margin-bottom: 10px;
-      }
+        }
 
       #sea-b {
         background-image: url('../content/sea-b-image-01.png');
-
-      }
+        }
       #sf-city {
         background-image: url('../content/sf-city.png');
-      }
+        }
       #ali {
         background-image: url('../content/ali.jpg');
-      }
+        }
+/*fade in effect*/
+      .portfolio-box {
+        visibility: hidden;
+        }
+
+      .fadeIn {
+        -webkit-animation: animat_show 0.8s;
+        animation: animat_show 0.8s;
+        visibility: visible !important;
+        }
+
+      @-webkit-keyframes animat_show{
+        0%{opacity:0}
+        100%{opacity:1}
+        }
+
 
 /*Hover Effect On Portfolio Images*/
       .portfolio-box:hover .overlay {
@@ -216,6 +231,8 @@
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.75);
         }
+
+
 
 /*********************** POP-UP WINDOW FOR PORTFOLIO SECTION ***********************/
 

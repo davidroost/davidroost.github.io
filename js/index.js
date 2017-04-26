@@ -17,29 +17,40 @@ $(document).ready(function(){
 // ********************** POP-UP WINDOW FOR PORTFOLIO SECTION **********************
 
   function deselect(e) {
-    $('.popup').slideFadeToggle(function() {
-      e.removeClass('selected');
-      });
+    $(portfolio_box_popup_id).slideFadeToggle(function() {
+        e.removeClass('selected');
+        });
   };
 
-  $(function() {
-    $('#sea-b').on('click', function() {
-      if($(this).hasClass('selected')) {
-        deselect($(this));
-      } else {
-        $(this).addClass('selected');
-        $('.popup').slideFadeToggle();
-      }
-      return false;
-      });
+  var portfolio_box_popup_id
 
-      $('.close').on('click', function() {
-        deselect($('#sea-b'));
+  var portfolio_box_id
+
+  $(function() {
+    $('.portfolio-box').on('click', function() {
+        if($(this).hasClass('selected')) {
+          deselect($(this));
+        }
+        else {
+            $(this).addClass('selected');
+
+            portfolio_box_popup_id="#"+$(this).attr("id")+"-popup";
+            // we're setting a variable to add the hash and get the id, and add the popup name,
+
+            portfolio_box_id="#"+$(this).attr("id");
+
+            $(portfolio_box_popup_id).slideFadeToggle();
+        }
         return false;
         });
 
-      $('.close-bottom').on('click', function() {
-        deselect($('#sea-b'));
+    $('.close').on('click', function() {
+        deselect($(portfolio_box_id));
+        return false;
+        });
+
+    $('.close-bottom').on('click', function() {
+        deselect($(portfolio_box_id));
         return false;
         });
   });
@@ -47,5 +58,30 @@ $(document).ready(function(){
   $.fn.slideFadeToggle = function(easing, callback) {
     return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
   };
+
+// fade in
+
+function showImages(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (topOfWindow + windowHeight - 200 > thisPos ) {
+            $(this).addClass("fadeIn");
+        }
+    });
+}
+
+// if the image in the window of browser when the page is loaded, show that image
+$(document).ready(function(){
+    showImages('.portfolio-box');
+});
+
+// if the image in the window of browser when scrolling the page, show that image
+$(window).scroll(function() {
+    showImages('.portfolio-box');
+});
+
 
 });

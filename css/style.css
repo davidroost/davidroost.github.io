@@ -53,8 +53,17 @@ font-family: 'Rokkitt', serif;
       background-color: transparent;
       border-bottom: 2px solid rgb(227, 24, 55);
       }
+      /*header change color on scroll effect below*/
     header{
       overflow: hidden;
+      -webkit-transition: background-color 700ms linear;
+      -moz-transition: background-color 700ms linear;
+      -o-transition: background-color 700ms linear;
+      -ms-transition: background-color 700ms linear;
+      transition: background-color 700ms linear;
+      }
+    header.scrolled {
+      background-color: black;
       }
     .wrapper{
       position: relative;
@@ -330,6 +339,7 @@ font-family: 'Rokkitt', serif;
     .line{
       width: 25px;
       height: 3px;
+      /*background: white;*/
       background: rgb(227, 24, 55);
       margin-top: 3px;
       }

@@ -83,5 +83,16 @@ $(document).ready(function(){
           showImages('.portfolio-box');
       });
 
+// nav background color change on scroll
+      $(document).ready(function () {
+          $(window).scroll(function () {
+              if ($(document).scrollTop() > 225) {
+                  $("header").addClass("scrolled");
+              } else {
+                  $("header").removeClass("scrolled");
+              }
+          });
+      });
+
 
 });

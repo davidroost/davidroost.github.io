@@ -28,6 +28,10 @@ font-family: 'Rokkitt', serif;
       }
     h1 {
       text-align: center;
+      font-family: 'Muli', sans-serif;
+      font-weight: 900;
+      color: white;
+
       }
 
     /*** NAVIGATION SECTION ***/
@@ -138,7 +142,13 @@ font-family: 'Rokkitt', serif;
 
     /*** PORTFOLIO SECTION ***/
       .portfolio-section {
-
+        padding-top:60px;
+        font-size: 24px;
+        }
+    
+      .portfolio-section h1 {
+        font-family: 'Muli', sans-serif;
+        color: white;
         }
       .portfolio-box{
         height:250px;

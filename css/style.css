@@ -3,39 +3,60 @@
     /*This website was designed to be responsive. Which means it is designed multiple
     ways to respond to the size of the screen it's being viewed on. I have chosen to
     use three breakpoints. One for desktop screens, one for tablets, and one for mobile devices.*/
-font-family: 'Oswald', sans-serif;
-font-family: 'Muli', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Questrial', sans-serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Rokkitt', serif;
 
+/******* font guide *******/
+    /*font-family: 'Oswald', sans-serif;
+    font-family: 'Muli', sans-serif; (200,400,900)
+    font-family: 'Lobster', cursive;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rokkitt', serif; (400,600,800)*/
+
+/******* color guide *******/
+    /*baby-blue:  rgb (155, 218, 252);
+    brown:      rgb (133, 96, 70);
+    red:        rgb (178, 0, 0);
+    red-dark:   rgb (133, 7, 7);
+    off-white:  rgb(255, 241, 200);
+    grey:       rgb(128, 128, 128);*/
 
 /******* UNIVERSAL STYLING *******/
 
     /*this section is the general over-arching styling for the content that
     applies across all versions of the page regardless of the media responsiveness.*/
-    #container {
-      margin:0 auto;
-      /*width: 960px;*/
+    #max-width-container {
       }
 
-      .separator-container {
-    text-align: center;
-    position: relative;
-}
+    #container {
+      max-width: 1250px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+    hr.red-line{
+      border-top: 4px solid rgb(178, 0, 0);
+      width: 20%;
+      }
+    hr.blue-line{
+      border-top: 4px solid rgb(155, 218, 252);
+      width: 20%;
+      }
+    .separator-container {
+      text-align: center;
+      position: relative;
+      }
     body {
-      background-color:rgb(37, 37, 37);
+      background-color:rgb(255, 241,200);
       /*background-color: rgb(223, 223, 223);*/
       }
     section {
-      border: 1px solid black;
+      /*border: 1px solid rgb(178,0,0);*/
       }
     h1 {
       text-align: center;
       font-family: 'Muli', sans-serif;
       font-weight: 900;
-      color: white;
+      color: rgb(178,0,0);
       font-size: 24px;
       }
 
@@ -60,7 +81,7 @@ font-family: 'Rokkitt', serif;
       top: 0;
       width: 100%;
       background-color: transparent;
-      border-bottom: 2px solid rgb(227, 24, 55);
+      border-bottom: 2px solid rgb(178,0,0);
       }
       /*header change color on scroll effect below*/
     header{
@@ -72,7 +93,7 @@ font-family: 'Rokkitt', serif;
       transition: background-color 700ms linear;
       }
     header.scrolled {
-      background-color: black;
+      background-color: white;
       }
     .wrapper{
       position: relative;
@@ -92,28 +113,29 @@ font-family: 'Rokkitt', serif;
       margin: 0 10px;
       padding: 5px;
       display: block;
-      color: white;
+      color: black;
       text-decoration: none;
+      font-weight: bold;
       font-family: 'Oswald', sans-serif;
       font-size:14px;
-      text-shadow: 0 0 6px rgb(0, 0, 0);
+      /*text-shadow: 0 0 6px rgb(0, 0, 0);*/
       }
     .david-roost-header {
       float: left;
       padding-left: 10px;
       padding-top: 11px;
-      color: white;
+      color: black;
       text-decoration: none;
       font-family: 'Oswald', sans-serif;
       font-size:18px;
-      text-shadow: 0 0 6px rgb(0, 0, 0);
+      /*text-shadow: 0 0 6px rgb(0, 0, 0);*/
       }
     .david-roost-header:hover {
-      color: rgb(227, 24, 55);
+      color: rgb(178, 0, 0);
       text-shadow: none;
       }
     ul li a:hover{
-      color: rgb(227, 24, 55);
+      color: rgb(178, 0, 0);
       text-shadow: none;
       }
     nav ul li:first-child{
@@ -142,14 +164,58 @@ font-family: 'Rokkitt', serif;
     .greeting-section {
       display: block;
       margin-top: 42px;
-      height: 500px;
+      height: 700px;
       }
+    /*** FEWD SECTION ***/
+
+    .fewd-section {
+      display: block;
+      padding-top: 60px;
+      height: 400px;
+      background-color: rgb(155, 218, 252);
+      /*background-color: rgb(128, 128, 128);*/
+      }
+
+    .fewd-section p {
+      color: rgb(178, 0, 0);
+      text-align: center;
+      font-family: 'Muli', sans-serif;
+      font-weight: 400;
+      }
+
+
+
+
+
+
+
+
+
 
     /*** PORTFOLIO SECTION ***/
       .portfolio-section {
         padding-top:60px;
+        background-color: rgb(255, 241, 200);
         }
-
+      /*.portfolio-section h1 {
+        text-align: center;
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: rgb(155, 218, 252);
+        font-size: 24px;
+        }*/
+      .portfolio-category h2 {
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: rgb(178, 0, 0);
+        font-size: 24px;
+        }
+      .portfolio-category p {
+        color: black;
+        font-family: 'Muli', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        }
 
       .portfolio-box{
         height:250px;
@@ -185,6 +251,15 @@ font-family: 'Rokkitt', serif;
         }
       #ali {
         background-image: url('../content/ali.jpg');
+        }
+      #tori {
+        background-image: url('../content/tori_01.png');
+        }
+      #sd {
+        background-image: url('../content/sd_01.png');
+        }
+      #uc {
+        background-image: url('../content/uc_01.png');
         }
 /*fade in effect*/
       .portfolio-box {
@@ -235,6 +310,8 @@ font-family: 'Rokkitt', serif;
         border-radius: 10px;
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.75);
+        /*background-color: rgb(133, 7, 7);*/
+
         }
 
 
@@ -327,12 +404,14 @@ font-family: 'Rokkitt', serif;
         display: block;
         height: 500px;
         padding-top:60px;
+        background-color: white;
         }
 
     /*** CONTACT ME SECTION ***/
       .contact-section {
         height: 500px;
         padding-top:60px;
+        background-color: rgb(133, 96, 70);
         }
       .close-bottom {
         clear: both;
@@ -346,9 +425,14 @@ font-family: 'Rokkitt', serif;
         font-size: 14px;
         }
 
+      .contact-section h1 {
+        color: rgb(155, 218, 252);
+        }
 
     /*** FOOTER SECTION ***/
       .footer-logo {
+        margin-top: 5px;
+        margin-bottom: 5px;
         display: block;
         clear: both;
         margin-left: auto;
@@ -361,19 +445,26 @@ font-family: 'Rokkitt', serif;
         transform: rotate(360deg);
         }
 
+      footer {
+        background-color: white;
+        border-top: 2px solid rgb(178,0,0);
+        }
       footer p {
-        color: white;
-        font-family: 'Pacifico', cursive;
-        font-size: 14px;
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: rgb(178,0,0);
         text-align: center;
+        font-size: 10px;
         }
       p .note-on-coding {
-        color: white;
+        color: black;
         font-family: 'Muli', sans-serif;
         font-weight: 400;
         font-size: 10px;
 
         }
+
+
 /******* TABLET VERSION *******/
 
     /* this is the style section for all screens (likely tablets) where the page

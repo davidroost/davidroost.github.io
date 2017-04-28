@@ -14,6 +14,8 @@ $(document).ready(function(){
   */
 
 
+
+
 // ********************** POP-UP WINDOW FOR PORTFOLIO SECTION **********************
 
       function deselect(e) {

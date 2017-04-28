@@ -42,6 +42,11 @@
       border-top: 4px solid rgb(155, 218, 252);
       width: 20%;
       }
+    hr.black-line{
+      border-top: 4px solid black;
+      width: 20%;
+      }
+
     .separator-container {
       text-align: center;
       position: relative;
@@ -101,6 +106,9 @@
       }
     .wrapper{
       position: relative;
+      max-width: 1250px;
+      margin-left: auto;
+      margin-right: auto;
       }
     .nav-logo {
       float: left;
@@ -153,7 +161,7 @@
     /*** GREETING SECTION ***/
 
       .greeting-section {
-      background-image: url("../content/greeting-background-00.png");
+      background-image: url("../content/greeting-background-00-desktop.png");
       width: 100%;
       background-color: white;
       min-height: auto;
@@ -165,26 +173,57 @@
       text-align: center;
       }
 
-
+    .black-line #line-2 {
+      margin-top: 25px;
+      }
     .greeting-section {
       display: block;
       margin-top: 42px;
-      height: 600px;
+      height: 700px;
       }
 
     .greeting-section h1 {
-      padding-top: 125px;
+      padding-top: 100px;
       font-family: 'Pacifico', cursive;
       font-size: 40px;
+      }
+
+    .greeting-section h1 span{
+      color: black;
       }
 
     .greeting-section h2 {
       font-family: 'Muli', sans-serif;
       font-weight: 900;
       color: rgb(178,0,0);
-      font-size: 24px;
+      font-size: 36px;
+      }
+    .greeting-section h3 {
+      font-family: 'Rokkitt', serif;
+      color: rgb(178,0,0);
+      font-size: 16px;
+      color: black;
+      }
+    .greeting-section h4 {
+      font-family: 'Lobster', cursive;
+      color: rgb(178,0,0);
+      font-size: 30px;
+      }
+    .greeting-section-img img {
+      width: 60px;
+      margin-top: 10px;
+      -webkit-transition: -webkit-transform .5s ease-in-out;
+      transition: transform .5s ease-in-out;
+      cursor: pointer; cursor: hand;
+      }
+  .greeting-section-img img:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
       }
 
+
+  /*.nav-logo:hover {
+  */
 
     /*** FEWD SECTION ***/
 
@@ -469,6 +508,28 @@
         border: 2px solid rgb(178,0,0);
 
         }
+      button.resume-button {
+        display: block;
+        color: rgb(178, 0, 0);
+        background-color: rgba(0,0,0,0);
+        border: 4px solid rgb(178, 0, 0);
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size:14px;
+        cursor: pointer; cursor: hand;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+      button.resume-button:hover {
+        background-color: rgb(178, 0, 0);
+        color: white;
+        border: 4px solid rgb(133, 7, 7);
+        }
+
 
     /*** CONTACT ME SECTION ***/
       .contact-section {
@@ -529,18 +590,14 @@
         height: 125px;
         margin-right: 10px;
         margin-bottom: 10px;
-
         }
 
       .form-left .form-input {
         float: right;
-
-        /*display: block;*/
         }
       .form-left .form-input:last-child {
-
-                        margin-top: 15px;
-                      }
+        margin-top: 15px;
+        }
 
       .form-right {
         float: left;
@@ -635,7 +692,7 @@
       margin-bottom: -8px;
       }
     .open{
-      height: 140px;
+      height: 200px;
       }
     .wrapper{
       margin-top: -8px;
@@ -644,17 +701,32 @@
       width: 25px;
       height: 3px;
       /*background: white;*/
-      background: rgb(227, 24, 55);
+      background: rgb(178, 0, 0);
       margin-top: 3px;
       }
     .greeting-section {
       display: block;
-      padding-top: 100px;
-      height: 400px;
+      padding-top: 200px;
+      height: 350px;
       }
+    .greeting-section h1 {
+      margin-top: -225px;
+    }
+    .greeting-section {
+    background-image: url("../content/greeting-background-00.png");
+    width: 100%;
+    background-color: white;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    }
 
     nav ul li:first-child {
-      padding-top: 5px;
+      padding-top: 9px;
       margin-top: 10px;
       margin-right: 0px;
       display:block;
@@ -663,6 +735,10 @@
       display: block;
       padding-right:20px;
       }
+    ul li a {
+      padding-top: -40px;
+      }
+
     /*ul li a:hover{
       color: rgb(227, 24, 55);
       text-shadow: none;

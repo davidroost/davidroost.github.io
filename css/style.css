@@ -122,34 +122,32 @@
       font-family: 'Oswald', sans-serif;
       font-size:14px;
       color: black;
-
-      /*text-shadow: 0 0 6px rgb(0, 0, 0);*/
       }
 
-    .david-roost-header {
-      float: left;
-      padding-left: 10px;
-      padding-top: 11px;
-      color: black;
-      text-decoration: none;
-      font-family: 'Oswald', sans-serif;
-      font-size:18px;
-      /*text-shadow: 0 0 6px rgb(0, 0, 0);*/
-      }
-    .david-roost-header:hover {
-      color: rgb(178, 0, 0);
-      text-shadow: none;
-      }
-    ul li a:hover{
-      color: rgb(178, 0, 0);
-      text-shadow: none;
-      }
-    nav ul li:first-child{
-      display:none;
-      position: absolute;
-      top: 0;
-      right: 0;
-      }
+      .david-roost-header {
+        float: left;
+        padding-left: 10px;
+        padding-top: 11px;
+        color: black;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-size:18px;
+        /*text-shadow: 0 0 6px rgb(0, 0, 0);*/
+        }
+      .david-roost-header:hover {
+        color: rgb(178, 0, 0);
+        text-shadow: none;
+        }
+      ul li a:hover{
+        color: rgb(178, 0, 0);
+        text-shadow: none;
+        }
+      nav ul li:first-child{
+        display:none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
 
 
     /*** GREETING SECTION ***/
@@ -157,6 +155,7 @@
       .greeting-section {
       background-image: url("../content/greeting-background-00.png");
       width: 100%;
+      background-color: white;
       min-height: auto;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -648,6 +647,12 @@
       background: rgb(227, 24, 55);
       margin-top: 3px;
       }
+    .greeting-section {
+      display: block;
+      margin-top: -100px;
+      height: 400px;
+      }
+
     nav ul li:first-child {
       padding-top: 5px;
       margin-top: 10px;
@@ -707,33 +712,28 @@
 /*form section*/
 
 .form-section {
-float: none;
+  float: none;
   }
 .form-left {
-float: none;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-height: auto;
-
-
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
   }
 .form-left .form-input {
-float: none;
-
+  float: none;
   }
 .form-right {
-float: none;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-padding-left: 1px;
-
-
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 1px;
   }
 .form-right .form-input {
-float: none;
-}
+  float: none;
+  }
 
 
 

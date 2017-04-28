@@ -38,6 +38,10 @@
       border-top: 4px solid rgb(178, 0, 0);
       width: 20%;
       }
+    hr.red-line-fewd {
+      border-top: 4px solid rgb(178, 0, 0);
+      width: 70%;
+      }
     hr.blue-line{
       border-top: 4px solid rgb(155, 218, 252);
       width: 20%;
@@ -202,8 +206,11 @@
       font-family: 'Rokkitt', serif;
       color: rgb(178,0,0);
       font-size: 16px;
-      color: black;
       }
+      .greeting-section h3 span {
+        color: black;
+      }
+
     .greeting-section h4 {
       font-family: 'Lobster', cursive;
       color: rgb(178,0,0);
@@ -220,7 +227,13 @@
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
       }
-
+  .greeting-section p {
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    font-size: 8px;
+    }
 
   /*.nav-logo:hover {
   */
@@ -230,21 +243,60 @@
     .fewd-section {
       display: block;
       padding-top: 80px;
-      height: 400px;
+      height: 500px;
       background-color: white;
       border: 2px solid rgb(178,0,0);
 
       /*background-color: rgb(128, 128, 128);*/
       }
+  .fewd-section h2 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    }
+    .tab {
+      float: left;
+      width: calc(33% - 20px);
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 50px;
+      /*background-color: red;*/
+    }
 
+.fewd-section h3 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  }
+#tab {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+.tab h1 {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  }
     .fewd-section p {
       color: rgb(178, 0, 0);
       text-align: center;
       font-family: 'Muli', sans-serif;
       font-weight: 400;
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
 
       }
-
+.fewd-text {
+  clear: both;
+}
 
 
 
@@ -508,7 +560,15 @@
         border: 2px solid rgb(178,0,0);
 
         }
-      button.resume-button {
+
+        a.resume-button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+            text-decoration: none;
+        }
+
+    .resume-button {
         display: block;
         color: rgb(178, 0, 0);
         background-color: rgba(0,0,0,0);
@@ -522,9 +582,10 @@
         cursor: pointer; cursor: hand;
         margin-left: auto;
         margin-right: auto;
+        text-decoration: none;
         }
 
-      button.resume-button:hover {
+      .resume-button:hover {
         background-color: rgb(178, 0, 0);
         color: white;
         border: 4px solid rgb(133, 7, 7);
@@ -751,6 +812,19 @@
       margin-top: 15px;
       }
 
+/*FEWD SECTION*/
+
+.fewd-section {
+  height: 700px;
+}
+
+.tab {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 
     /*** PORTFOLIO SECTION ***/
 

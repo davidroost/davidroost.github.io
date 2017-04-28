@@ -649,12 +649,10 @@
       }
     .greeting-section {
       display: block;
-      margin-top: -50px;
+      padding-top: 100px;
       height: 400px;
       }
-    .greeting-section h2 {
-      max-width: 70%;
-      }
+
     nav ul li:first-child {
       padding-top: 5px;
       margin-top: 10px;

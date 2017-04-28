@@ -149,7 +149,7 @@
     /*** GREETING SECTION ***/
 
       .greeting-section {
-      background-image: url('../content/background-sitka.png');
+      background-image: url("../content/greeting-background-05.png");
       width: 100%;
       min-height: auto;
       -webkit-background-size: cover;
@@ -166,6 +166,12 @@
       margin-top: 42px;
       height: 700px;
       }
+
+    .greeting-section h1 {
+      padding-top: 125px;
+      font-family: 'Pacifico', cursive;
+      font-size: 40px;
+    }
     /*** FEWD SECTION ***/
 
     .fewd-section {
@@ -329,8 +335,17 @@
         }
 
       .text  hr {
-        width: 65%;
+        border-top: 2px solid white;
+        width: 60%;
         }
+      p.click-for-more {
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: rgb(155, 218, 252);
+        text-align: center;
+        font-size: 8px;
+        }
+
       .overlay {
         height: 100%;
         width: 100%;
@@ -346,6 +361,21 @@
 
 /*********************** POP-UP WINDOW FOR PORTFOLIO SECTION ***********************/
 
+      .popup {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        /*margin-top: 52px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto; /* Enable scroll if needed */
+        background-color: white; /* Fallback color */
+        border: 0px;
+        }
       /* The Close Button */
       .close {
         color: #aaaaaa;
@@ -367,23 +397,9 @@
         margin-left: auto;
         margin-right: auto;
         }
-      .popup {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        /*margin-top: 52px; /* Location of the box */*/
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        margin-left: auto;
-        margin-right: auto;
-        overflow: auto; /* Enable scroll if needed */
-        background-color: white; /* Fallback color */
-        border: 0px;
-        }
+
       .popup-left {
-        float: left;
+        float: right;
         width: calc(69% - 10px);
         margin-left: auto;
         margin-right: auto;
@@ -391,7 +407,7 @@
         text-align: left;
         }
       .popup-right {
-        float: left;
+        float: right;
         width: calc(29% - 1px); /*this is how you split the size of the content without having to add and subtract pixels*/
         margin-left: 10px;
         margin-right: 5px;
@@ -570,11 +586,11 @@
     .popup-right {
       display: block;
       width: 100%;
-      margin-left: 25px;
+      margin-left: 5px;
       margin-right: 5px;
       margin-bottom: 10px;
       border: 0px;
-      text-align: left;
+      text-align: center;
       }
 
 

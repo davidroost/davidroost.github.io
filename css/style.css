@@ -461,7 +461,14 @@
 
         }
 
-
+      .greeting-section {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        }
+      .fewd-section {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        }
 
 /*********************** POP-UP WINDOW FOR PORTFOLIO SECTION ***********************/
 

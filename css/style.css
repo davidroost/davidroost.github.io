@@ -184,6 +184,8 @@
       display: block;
       margin-top: 42px;
       height: 700px;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius: 100px;
       }
 
     .greeting-section h1 {
@@ -191,11 +193,9 @@
       font-family: 'Pacifico', cursive;
       font-size: 40px;
       }
-
     .greeting-section h1 span{
       color: black;
       }
-
     .greeting-section h2 {
       font-family: 'Muli', sans-serif;
       font-weight: 900;
@@ -207,10 +207,9 @@
       color: rgb(178,0,0);
       font-size: 16px;
       }
-      .greeting-section h3 span {
-        color: black;
+    .greeting-section h3 span {
+      color: black;
       }
-
     .greeting-section h4 {
       font-family: 'Lobster', cursive;
       color: rgb(178,0,0);
@@ -223,38 +222,35 @@
       transition: transform .5s ease-in-out;
       cursor: pointer; cursor: hand;
       }
-  .greeting-section-img img:hover {
+    .greeting-section-img img:hover {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
       }
-  .greeting-section p {
-    font-family: 'Muli', sans-serif;
-    font-weight: 900;
-    color: black;
-    text-align: center;
-    font-size: 8px;
-    }
-
-  /*.nav-logo:hover {
-  */
-
+    .greeting-section p {
+      font-family: 'Muli', sans-serif;
+      font-weight: 900;
+      color: black;
+      text-align: center;
+      font-size: 8px;
+      }
     /*** FEWD SECTION ***/
 
     .fewd-section {
       display: block;
+      margin-top: 50px;
       padding-top: 80px;
       height: 500px;
       background-color: white;
       border: 2px solid rgb(178,0,0);
-
+      border-radius: 100px;
       /*background-color: rgb(128, 128, 128);*/
       }
-  .fewd-section h2 {
-    font-family: 'Lobster', cursive;
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    }
+    .fewd-section h2 {
+      font-family: 'Lobster', cursive;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      }
     .tab {
       float: left;
       width: calc(33% - 20px);
@@ -262,28 +258,29 @@
       margin-left: 10px;
       margin-right: 10px;
       height: 50px;
-      /*background-color: red;*/
-    }
-
-.fewd-section h3 {
-  font-family: 'Muli', sans-serif;
-  font-weight: 900;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  }
-#tab {
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
-}
-.tab h1 {
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  font-size: 35px;
-  text-align: center;
-  }
+      }
+    .fewd-section h3 {
+      font-family: 'Muli', sans-serif;
+      font-weight: 900;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      }
+    #tab {
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 70%;
+      }
+    .tab h1:hover {
+      color: rgb(178, 0, 0);
+      }
+    .tab h1 {
+      font-family: 'Oswald', sans-serif;
+      color: black;
+      font-size: 35px;
+      text-align: center;
+      }
     .fewd-section p {
       color: rgb(178, 0, 0);
       text-align: center;
@@ -292,11 +289,10 @@
       max-width: 70%;
       margin-left: auto;
       margin-right: auto;
-
       }
-.fewd-text {
-  clear: both;
-}
+    .fewd-text {
+      clear: both;
+      }
 
 
 
@@ -642,9 +638,9 @@
         }
       .form-section {
         /*text-align: center;
-                margin-left: auto;
-                margin-right: auto;*/
-      }
+        margin-left: auto;
+        margin-right: auto;*/
+        }
       .form-left {
         float: left;
         width: calc(50% - 10px);
@@ -652,14 +648,12 @@
         margin-right: 10px;
         margin-bottom: 10px;
         }
-
       .form-left .form-input {
         float: right;
         }
       .form-left .form-input:last-child {
         margin-top: 15px;
         }
-
       .form-right {
         float: left;
         width: calc(50% - 10px); /*this is how you split the size of the content without having to add and subtract pixels*/
@@ -674,7 +668,7 @@
         clear: both;
         margin-right: auto;
         margin-left: auto;
-      }
+        }
       button.form-button {
         display: block;
         color: white;
@@ -706,7 +700,6 @@
         -webkit-transition: -webkit-transform .5s ease-in-out;
         transition: transform .5s ease-in-out;
         cursor: pointer; cursor: hand;
-
         }
       .footer-logo:hover {
         -webkit-transform: rotate(360deg);
@@ -718,8 +711,6 @@
         border-top: 2px solid rgb(178,0,0);
         border-right: 2px solid rgb(178,0,0);
         border-left: 2px solid rgb(178,0,0);
-
-
         }
       footer p {
         font-family: 'Muli', sans-serif;
@@ -743,147 +734,146 @@
     width is 768 pixles or less*/
  @media screen and (max-width:768px){
 
-    /*** NAVIGATION SECTION ***/
+      /*** NAVIGATION SECTION ***/
 
-    nav {
-      height: 0px;
-      transition: 1s height;
-      float: none;
-      text-align:center;
-      margin-bottom: -8px;
-      }
-    .open{
-      height: 200px;
-      }
-    .wrapper{
-      margin-top: -8px;
-      }
-    .line{
-      width: 25px;
-      height: 3px;
-      /*background: white;*/
-      background: rgb(178, 0, 0);
-      margin-top: 3px;
-      }
-    .greeting-section {
-      display: block;
-      padding-top: 200px;
-      height: 350px;
-      }
-    .greeting-section h1 {
-      margin-top: -225px;
-    }
-    .greeting-section {
-    background-image: url("../content/greeting-background-00.png");
-    width: 100%;
-    background-color: white;
-    min-height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    text-align: center;
-    }
+      nav {
+        height: 0px;
+        transition: 1s height;
+        float: none;
+        text-align:center;
+        margin-bottom: -8px;
+        }
+      .open{
+        height: 200px;
+        }
+      .wrapper{
+        margin-top: -8px;
+        }
+      .line{
+        width: 25px;
+        height: 3px;
+        /*background: white;*/
+        background: rgb(178, 0, 0);
+        margin-top: 3px;
+        }
+      .greeting-section {
+        display: block;
+        padding-top: 200px;
+        height: 350px;
+        }
+      .greeting-section h1 {
+        margin-top: -225px;
+        }
+      .greeting-section {
+        background-image: url("../content/greeting-background-00.png");
+        width: 100%;
+        background-color: white;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        text-align: center;
+        }
+      nav ul li:first-child {
+        padding-top: 9px;
+        margin-top: 10px;
+        margin-right: 0px;
+        display:block;
+        }
+      ul li {
+        display: block;
+        padding-right:20px;
+        }
+      ul li a {
+        padding-top: -40px;
+        }
 
-    nav ul li:first-child {
-      padding-top: 9px;
-      margin-top: 10px;
-      margin-right: 0px;
-      display:block;
-      }
-    ul li {
-      display: block;
-      padding-right:20px;
-      }
-    ul li a {
-      padding-top: -40px;
-      }
+      /*ul li a:hover{
+        color: rgb(227, 24, 55);
+        text-shadow: none;
+        }*/
+      .david-roost-header {
+        padding-top: 20px;
+        }
+      .nav-logo {
+        float: none;
+        margin-top: 15px;
+        }
 
-    /*ul li a:hover{
-      color: rgb(227, 24, 55);
-      text-shadow: none;
-      }*/
-    .david-roost-header {
-      padding-top: 20px;
-      }
-    .nav-logo {
-      float: none;
-      margin-top: 15px;
-      }
+      /*FEWD  SECTION*/
 
-/*FEWD  SECTION*/
+      .fewd-section {
+        height: 700px;
+        }
 
-.fewd-section {
-  height: 700px;
-}
+      .tab {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        }
 
-.tab {
-  display: block;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
+      /*** PORTFOLIO SECTION ***/
 
-    /*** PORTFOLIO SECTION ***/
+      .portfolio-box {
+        height:200px;
+        display: block;
+        width: 96.5%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+        }
+      .portfolio-box:nth-of-type(2) {
+        margin-left: 1.5%;
+        }
+      .portfolio-box:nth-of-type(3) {
+        margin-left: 1.5%;
+        }
+      .popup-left {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px;
+        }
+      .popup-right {
+        display: block;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        border: 0px;
+        text-align: center;
+        }
 
-    .portfolio-box {
-      height:200px;
-      display: block;
-      width: 96.5%;
-      margin-left: auto;
-      margin-right: auto;
-      border: 1px solid black;
-      }
-    .portfolio-box:nth-of-type(2) {
-      margin-left: 1.5%;
-      }
-    .portfolio-box:nth-of-type(3) {
-      margin-left: 1.5%;
-      }
-    .popup-left {
-      display: block;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      border: 0px;
-      }
-    .popup-right {
-      display: block;
-      width: 100%;
-      margin-left: 5px;
-      margin-right: 5px;
-      margin-bottom: 10px;
-      border: 0px;
-      text-align: center;
-      }
+      /*form section*/
 
-/*form section*/
-
-.form-section {
-  float: none;
-  }
-.form-left {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: auto;
-  }
-.form-left .form-input {
-  float: none;
-  }
-.form-right {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding-left: 1px;
-  }
-.form-right .form-input {
-  float: none;
-  }
+      .form-section {
+        float: none;
+        }
+      .form-left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        }
+      .form-left .form-input {
+        float: none;
+        }
+      .form-right {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-left: 1px;
+        }
+      .form-right .form-input {
+        float: none;
+        }
 
 
 

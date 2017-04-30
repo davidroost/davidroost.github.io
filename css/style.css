@@ -27,13 +27,11 @@
     applies across all versions of the page regardless of the media responsiveness.*/
     #max-width-container {
       }
-
     #container {
       max-width: 1250px;
       margin-left: auto;
       margin-right: auto;
       }
-
     hr.red-line{
       border-top: 4px solid rgb(178, 0, 0);
       width: 20%;
@@ -50,7 +48,6 @@
       border-top: 4px solid black;
       width: 20%;
       }
-
     .separator-container {
       text-align: center;
       position: relative;
@@ -564,18 +561,18 @@
         height: 500px;
         padding-top:80px;
         background-color: white;
+        text-align: center;
         border: 2px solid rgb(178,0,0);
-
         }
 
-        a.resume-button {
-            -webkit-appearance: button;
-            -moz-appearance: button;
-            appearance: button;
-            text-decoration: none;
+      a.resume-button {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        text-decoration: none;
         }
 
-    .resume-button {
+      .resume-button {
         display: block;
         color: rgb(178, 0, 0);
         background-color: rgba(0,0,0,0);
@@ -597,6 +594,50 @@
         color: white;
         border: 4px solid rgb(133, 7, 7);
         }
+      .about-section h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        }
+      .about-section h1 span{
+        color: black;
+        }
+      .about-section h2 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: rgb(178,0,0);
+        font-size: 36px;
+        }
+      .about-section h3 {
+        font-family: 'Rokkitt', serif;
+        color: rgb(178,0,0);
+        font-size: 16px;
+        }
+      .about-section h3 span {
+        color: black;
+        }
+      .about-section h4 {
+        font-family: 'Lobster', cursive;
+        color: rgb(178,0,0);
+        font-size: 30px;
+        }
+      .about-section-img img {
+        width: 60px;
+        -webkit-transition: -webkit-transform .5s ease-in-out;
+        transition: transform .5s ease-in-out;
+        cursor: pointer; cursor: hand;
+        }
+      .about-section-img img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        }
+      .about-section p {
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: black;
+        text-align: center;
+        font-size: 8px;
+        }
+
 
 
     /*** CONTACT ME SECTION ***/
@@ -757,6 +798,9 @@
       .open{
         height: 200px;
         }
+      .close {
+        height: 0px;
+      }
       .wrapper{
         margin-top: -8px;
         }

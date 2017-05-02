@@ -237,7 +237,7 @@
       display: block;
       margin-top: 50px;
       padding-top: 80px;
-      height: 500px;
+      height: 700px;
       background-color: white;
       border: 2px solid rgb(178,0,0);
       border-radius: 100px;
@@ -260,8 +260,8 @@
     .fewd-section h3 {
       font-family: 'Muli', sans-serif;
       font-weight: 900;
-      color: black;
-      font-size: 20px;
+      color: rgb(178, 0, 0);
+      font-size: 18px;
       text-align: center;
       }
     #tab {
@@ -291,7 +291,9 @@
     .fewd-text {
       clear: both;
       }
-
+.fewd-black-p {
+  color: black;
+}
 
   #fewd-button {
     clear: both;
@@ -1011,7 +1013,7 @@
       /*FEWD  SECTION*/
 
       .fewd-section {
-        height: 750px;
+        height: 950px;
         }
 
       .tab {

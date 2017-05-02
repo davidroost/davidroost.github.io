@@ -527,6 +527,7 @@
         border: 0px;
         }
       .project-image {
+        clear: both;
         padding-bottom: 25px;
         margin-left: auto;
         margin-right: auto;
@@ -537,6 +538,19 @@
         margin-top: 10px;
         margin-bottom: 10px;
         border: 1px solid black;
+        }
+      .tallpic img {
+        width: 100%;
+        max-height: 1600px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
         }
      .popup-content h2 {
         font-family: 'Muli', sans-serif;
@@ -557,7 +571,6 @@
       .about-section {
         clear: both;
         display: block;
-        height: 500px;
         padding-top:80px;
         background-color: white;
         text-align: center;
@@ -636,7 +649,33 @@
         text-align: center;
         font-size: 8px;
         }
+      #slideshow {
+        margin: 50px auto;
+        position: relative;
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
 
+      #slideshow > div {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        }
+
+      #slideshow img {
+        height: 300px;
+        width: 300px;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        }
 
 
     /*** CONTACT ME SECTION ***/

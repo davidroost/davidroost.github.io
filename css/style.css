@@ -360,15 +360,16 @@
         .modal-content h3 {
           font-size: 30px;
           }
-        .modal-content h4 {
+        .fewd-section h4 {
           font-family: 'Oswald', sans-serif;
           color: black;
           font-weight: bold;
           text-align: center;
           font-size: 12px;
           }
-        .modal-content a {
+        .fewd-section a {
           text-decoration: none;
+          color: black;
           }
 
 

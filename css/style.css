@@ -385,15 +385,14 @@
       #stadio {
         background-image: url('../content/stadio-01.png');
         }
-
       #islington {
-        background-image: url('../content/islington_00.jpg');
+        background-image: url('../content/islington_000.jpg');
         }
       #elm {
-        background-image: url('../content/elm.jpg');
+        background-image: url('../content/elm_01.jpg');
         }
       #sycamore {
-        background-image: url('../content/sycamore_01.jpg');
+        background-image: url('../content/sycamore_001.jpg');
         }
 /*fade in effect*/
       .portfolio-box {

@@ -116,6 +116,12 @@ setInterval(function() {
     .appendTo('#slideshow');
 },  3000);
 
+// slideshow fade out on scroll
+
+
+
+
+
 });
 
 

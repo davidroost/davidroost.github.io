@@ -90,6 +90,7 @@
       background-color: rgb(128, 128, 128);
       /*background-color: transparent;*/
       border-bottom: 2px solid rgb(178,0,0);
+      z-index: 2;
       }
 
       /*header change color on scroll effect below*/
@@ -485,6 +486,7 @@
         margin-right: auto;
         overflow: auto; /* Enable scroll if needed */
         background-color: white; /* Fallback color */
+        margin-top: 30px;
         border: 0px;
         }
       /* The Close Button */
@@ -572,11 +574,18 @@
         clear: both;
         display: block;
         padding-top:80px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: white;
         text-align: center;
         border: 2px solid rgb(178,0,0);
+        border-radius: 10px;
         }
 
+      .about-section a {
+        text-decoration:none;
+        }
       a.resume-button {
         -webkit-appearance: button;
         -moz-appearance: button;
@@ -612,6 +621,7 @@
         }
       .about-section h1 span{
         color: black;
+        font-size: 25px;
         }
       .about-section h2 {
         font-family: 'Muli', sans-serif;
@@ -622,6 +632,12 @@
       .about-section h3 {
         font-family: 'Rokkitt', serif;
         color: rgb(178,0,0);
+        font-weight: 600;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 20px;
+
         font-size: 16px;
         }
       .about-section h3 span {
@@ -631,6 +647,14 @@
         font-family: 'Lobster', cursive;
         color: rgb(178,0,0);
         font-size: 30px;
+        line-height: 45px;
+        }
+
+      .about-section h4 span {
+        font-family: 'Lobster', cursive;
+        color:  rgb(128, 128, 128);
+        font-weight: lighter;
+        font-size: 25px;
         }
       .about-section-img img {
         width: 60px;
@@ -649,13 +673,22 @@
         text-align: center;
         font-size: 8px;
         }
+      .about-section p span {
+        font-size: 11px;
+        }
+      .james p {
+
+      }
+
       #slideshow {
-        margin: 50px auto;
+        margin: 20px auto;
         position: relative;
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         padding: 10px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+        border: 4px solid rgb(178, 0, 0);
+        border-radius: 20px;
         }
 
       #slideshow > div {
@@ -667,14 +700,19 @@
         }
 
       #slideshow img {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         min-height: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
         background-position: center;
+        border-radius: 10px;
+        }
+
+      .slideshow-container {
+        z-index: 1;
         }
 
 
@@ -942,6 +980,14 @@
         text-align: center;
         }
 
+
+      /*about section*/
+
+      .about-section h4 {
+        font-family: 'Lobster', cursive;
+        color: rgb(178,0,0);
+        font-size: 20px;
+        }
       /*form section*/
 
       .form-section {

@@ -970,11 +970,11 @@
         }
       .greeting-section {
         display: block;
-        padding-top: 400px;
-        height: 350px;
+        padding-top: 550px;
+        height: 200px;
         }
       .greeting-section h1 {
-        margin-top: -225px;
+        margin-top: -400px;
         }
       .greeting-section {
         background-image: url("../content/greeting-background-00.png");

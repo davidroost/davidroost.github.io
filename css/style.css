@@ -165,6 +165,7 @@
       .greeting-section {
       background-image: url("../content/greeting-background-00-desktop.png");
       width: 100%;
+      padding-top: 250px;
       background-color: white;
       min-height: auto;
       -webkit-background-size: cover;
@@ -187,7 +188,7 @@
       }
 
     .greeting-section h1 {
-      padding-top: 100px;
+      padding-top: 50px;
       font-family: 'Pacifico', cursive;
       font-size: 40px;
       }
@@ -295,6 +296,9 @@
   color: black;
 }
 
+.fadeInBlock {
+    opacity:0;
+}
   #fewd-button {
     clear: both;
     margin-right: auto;

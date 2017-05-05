@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ucll export.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5993">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop5995" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:0;"
+         offset="1"
+         id="stop5997" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5993"
+       id="linearGradient5999"
+       x1="6100.9941"
+       y1="-2533.4854"
+       x2="-7494.5137"
+       y2="5315.8848"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.049808377"
+     inkscape:cx="-2456.4812"
+     inkscape:cy="-43.428811"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="802"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect5986"
+       width="11332.923"
+       height="6374.7695"
+       x="-4936.7466"
+       y="-2279.7146"
+       inkscape:export-xdpi="12.71"
+       inkscape:export-ydpi="12.71" />
+    <image
+       sodipodi:absref="/Users/davidroost/Desktop/Roost/davidroostcreative/davidroost.github.io/content/UCLL Print_Final.jpg"
+       xlink:href="UCLL Print_Final.jpg"
+       width="5065.0938"
+       height="6554.8267"
+       preserveAspectRatio="none"
+       id="image5978"
+       x="-1806.8324"
+       y="-2361.6223" />
+    <path
+       style="fill:url(#linearGradient5999);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;opacity:0.5"
+       d="M -556.43945 -448.33789 L -7344.8828 3470.9707 L -7344.8828 5672.4961 L -4451.5156 5672.4961 L 1985.6934 1955.9727 L 1982.8867 1953.3184 L 1973.9648 1957.082 C 1615.0794 2108.5327 1272.5634 2228.7836 951.21484 2316.1484 C 868.69314 2338.5835 740.36217 2370.5845 730.76367 2371.1211 C 728.61677 2371.2411 721.31481 2370.0537 714.53711 2368.4824 C 691.76501 2363.203 597.49074 2339.8162 568.21484 2332.1836 C 232.47114 2244.6516 -133.68846 2117.8004 -514.53516 1957.082 L -544.28516 1944.5293 L -544.28516 736.86133 L -544.28516 -436.8418 L -556.43945 -448.33789 z "
+       id="path5990" />
+  </g>
+</svg>

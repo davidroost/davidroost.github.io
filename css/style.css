@@ -449,6 +449,9 @@
       #uc {
         background-image: url('../content/uc-01.png');
         }
+      #ucll {
+        background-image: url('../content/ucll-01.png');
+        }
       #coronado {
         background-image: url('../content/coronado-01.jpg');
         }
@@ -647,7 +650,7 @@
       .popup-content p {
         font-family: 'Muli', sans-serif;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 11px;
         }
 
     /*** ABOUT ME SECTION ***/

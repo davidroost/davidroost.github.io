@@ -1086,6 +1086,12 @@
         text-align: center;
         }
 
+      #empty-box-01 {
+        display: none;
+      }
+      #empty-box-02 {
+        display: none;
+      }
 
       /*about section*/
 

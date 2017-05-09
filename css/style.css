@@ -423,22 +423,24 @@
         margin-left: 1.5%;
         }
 
-      #empty-box-01 {
-        height:250px;
-        width:31%;
-        margin-left: 1.5%;
-        border: none;
-        float: left;
-        border: 2px solid rgba(0,0,0,0);
-        }
-      #empty-box-02 {
-        height:250px;
-        width:31%;
-        /*margin-left: 1.5%;*/
-        border: none;
-        float: left;
-        border: 2px solid rgba(0,0,0,0);
-        }
+        /*these two empty boxes are only here to center an odd 
+        numbered of portfolio boxes.*/
+        #empty-box-01 {
+          height:250px;
+          width:31%;
+          margin-left: 1.5%;
+          border: none;
+          float: left;
+          border: 2px solid rgba(0,0,0,0);
+          }
+        #empty-box-02 {
+          height:250px;
+          width:31%;
+          /*margin-left: 1.5%;*/
+          border: none;
+          float: left;
+          border: 2px solid rgba(0,0,0,0);
+          }
 
 
       .portfolio-category {
@@ -1085,13 +1087,16 @@
         border: 0px;
         text-align: center;
         }
+              /*These two empty boxes only apply when there is not enough content in portfolio
+              boxes to have three in each row, so when there is one extra at the botom,
+              apply these two empty box id's*/
 
-      #empty-box-01 {
-        display: none;
-      }
-      #empty-box-02 {
-        display: none;
-      }
+              #empty-box-01 {
+                display: none;
+                }
+              #empty-box-02 {
+                display: none;
+                }
 
       /*about section*/
 

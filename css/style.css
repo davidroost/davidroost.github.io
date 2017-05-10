@@ -423,7 +423,7 @@
         margin-left: 1.5%;
         }
 
-        /*these two empty boxes are only here to center an odd 
+        /*these two empty boxes are only here to center an odd
         numbered of portfolio boxes.*/
         #empty-box-01 {
           height:250px;
@@ -1098,6 +1098,10 @@
                 display: none;
                 }
 
+
+      .text {
+        padding-top: 50px;
+        }
       /*about section*/
 
       .about-section h4 {

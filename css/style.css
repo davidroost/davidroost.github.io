@@ -165,7 +165,7 @@
       .greeting-section {
       background-image: url("../content/greeting-background-00-desktop.png");
       width: 100%;
-      padding-top: 250px;
+      padding-top: 100px;
       background-color: white;
       min-height: auto;
       -webkit-background-size: cover;
@@ -215,7 +215,7 @@
       font-size: 30px;
       }
     .greeting-section-img img {
-      width: 60px;
+      width: 100px;
       margin-top: 10px;
       -webkit-transition: -webkit-transform .5s ease-in-out;
       transition: transform .5s ease-in-out;

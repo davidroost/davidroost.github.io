@@ -19,6 +19,27 @@ $(document).ready(function(){
   */
 
 
+// scroll menu :)
+
+$(".menu li a").click(function(e) {
+    e.preventDefault();
+    var offset = 20; //Offset of 20px
+    var element = $(this).attr('title');
+    $('html, body').animate({
+        scrollTop: $("#" + element).offset().top + offset
+    }, 2000);
+});
+
+
+$('.greeting-section-img').click(function(e) {
+    e.preventDefault();
+    var offset = 20; //Offset of 20px
+    $('html, body').animate({
+        scrollTop: $("#portfolio-section").offset().top + offset
+    }, 2000);
+});
+
+
 
 
 // ********************** POP-UP WINDOW FOR PORTFOLIO SECTION **********************
@@ -152,7 +173,7 @@ setInterval(function() {
   $(function() {
       $(window).scroll( function(){
 
-          $('.fadeInBlock').each( function(i){
+          $('.fadeInBlock').each( function(i){  // This is whats slowing down the loading of the site
 
               var bottom_of_object = $(this).position().top + $(this).outerHeight();
               var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -162,7 +183,7 @@ setInterval(function() {
 
               if( bottom_of_window > bottom_of_object ){
 
-                  $(this).animate({'opacity':'1'},950);
+                  $(this).animate({'opacity':'1'},200);
 
               }
           });

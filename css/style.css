@@ -87,9 +87,9 @@
       left: 0;
       top: 0;
       width: 100%;
-      background-color: rgb(128, 128, 128);
+      background-color: rgba(128, 128, 128, 0);
+      border-bottom: 2px solid rgba(178,0,0,0);
       /*background-color: transparent;*/
-      border-bottom: 2px solid rgb(178,0,0);
       z-index: 2;
       }
 
@@ -104,6 +104,8 @@
       }
     .nav-section.scrolled {
       background-color: white;
+      border-bottom: 2px solid rgb(178,0,0);
+
 
       }
     .wrapper{
@@ -215,7 +217,7 @@
       font-size: 30px;
       }
     .greeting-section-img img {
-      width: 100px;
+      width: 200px;
       margin-top: 10px;
       -webkit-transition: -webkit-transform .5s ease-in-out;
       transition: transform .5s ease-in-out;

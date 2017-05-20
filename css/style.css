@@ -997,13 +997,16 @@
         background: rgb(178, 0, 0);
         margin-top: 3px;
         }
+    .greeting-section-img img {
+        width: 100px;
+        }
       .greeting-section {
         display: block;
-        padding-top: 550px;
-        height: 200px;
+        padding-top: 80px;
+        height: 600px;
         }
       .greeting-section h1 {
-        margin-top: -400px;
+        margin-top: -20px;
         }
       .greeting-section {
         background-image: url("../content/greeting-background-00.png");

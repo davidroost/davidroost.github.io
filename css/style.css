@@ -167,7 +167,7 @@
       .greeting-section {
       background-image: url("../content/greeting-background-00-desktop.png");
       width: 100%;
-      padding-top: 100px;
+      padding-top: 50px;
       background-color: white;
       min-height: auto;
       -webkit-background-size: cover;
@@ -184,7 +184,7 @@
     .greeting-section {
       display: block;
       margin-top: 42px;
-      height: 700px;
+      height: 1000px;
       border-bottom-left-radius: 100px;
       border-bottom-right-radius: 100px;
       }
@@ -288,7 +288,7 @@
       font-family: 'Muli', sans-serif;
       font-weight: 400;
       max-width: 70%;
-      font-size: 13px;
+      font-size: 15px;
       margin-left: auto;
       margin-right: auto;
       }

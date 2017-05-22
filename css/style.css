@@ -188,7 +188,6 @@
       border-bottom-left-radius: 100px;
       border-bottom-right-radius: 100px;
       }
-
     .greeting-section h1 {
       padding-top: 50px;
       font-family: 'Pacifico', cursive;
@@ -295,36 +294,35 @@
     .fewd-text {
       clear: both;
       }
-.fewd-black-p {
-  color: black;
-}
+    .fewd-black-p {
+      color: black;
+      }
+    .fadeInBlock {
+      opacity:0;
+      }
+    #fewd-button {
+      clear: both;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+      }
+    button#fewd-button {
+      display: block;
+      color: white;
+      background: rgb(178, 0, 0);
+      border: 4px solid rgb(133, 7, 7);
+      width: 180px;
+      height: 40px;
+      border-radius: 10px;
+      font-family: 'Oswald', sans-serif;
+      font-size:10px;
+      color: white;
+      cursor: pointer; cursor: hand;
+      }
 
-.fadeInBlock {
-    opacity:0;
-}
-  #fewd-button {
-    clear: both;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    }
-  button#fewd-button {
-    display: block;
-    color: white;
-    background: rgb(178, 0, 0);
-    border: 4px solid rgb(133, 7, 7);
-    width: 180px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: 'Oswald', sans-serif;
-    font-size:10px;
-    color: white;
-    cursor: pointer; cursor: hand;
-    }
-
-  button#fewd-button:hover {
-    background-color: rgb(133, 7, 7);
-    }
+    button#fewd-button:hover {
+      background-color: rgb(133, 7, 7);
+      }
 
         /* The fewd Modal (background) */
         .modal {
@@ -347,6 +345,21 @@
           padding: 20px;
           border: 1px solid #888;
           width: 90%; /* Could be more or less, depending on screen size */
+          }
+        .modaltallpic img {
+          width: 100%;
+          max-height: 700px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          border: 1px solid black;
+          min-height: auto;
+          margin-left: auto;
+          margin-right: auto;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+          background-position: center;
           }
 
         /* The Close Button */
@@ -408,6 +421,8 @@
         font-size: 13px;
         }
 
+
+
       .portfolio-box{
         height:250px;
         width:31%;
@@ -444,7 +459,6 @@
           float: left;
           border: 2px solid rgba(0,0,0,0);
           }
-
 
       .portfolio-category {
         clear:both;
@@ -506,18 +520,15 @@
       .portfolio-box {
         visibility: hidden;
         }
-
       .fadeIn {
         -webkit-animation: animat_show 0.8s;
         animation: animat_show 0.8s;
         visibility: visible !important;
         }
-
       @-webkit-keyframes animat_show{
         0%{opacity:0}
         100%{opacity:1}
         }
-
 
 /*Hover Effect On Portfolio Images*/
       .portfolio-box:hover .overlay {
@@ -558,11 +569,9 @@
         width: 100%;
         opacity: 0;
         border-radius: 8px;
-
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.75);
         /*background-color: rgb(133, 7, 7);*/
-
         }
 
       .greeting-section {
@@ -591,8 +600,8 @@
         /*margin-top: 52px; /* Location of the box */
         left: 0;
         top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
+        width: 100%;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
         overflow: auto; /* Enable scroll if needed */

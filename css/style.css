@@ -88,11 +88,10 @@
       top: 0;
       width: 100%;
       background-color: rgba(128, 128, 128, 0);
-      border-bottom: 2px solid rgba(178,0,0,0);
+      /*border-bottom: 2px solid rgba(178,0,0,0);*/
       /*background-color: transparent;*/
       z-index: 2;
       }
-
       /*header change color on scroll effect below*/
     .nav-section{
       overflow: hidden;
@@ -103,10 +102,8 @@
       transition: background-color 700ms linear;
       }
     .nav-section.scrolled {
-      background-color: white;
-      border-bottom: 2px solid rgb(178,0,0);
-
-
+      /*background-color: white;*/
+      /*border-bottom: 2px solid rgb(178,0,0);*/
       }
     .wrapper{
       position: relative;
@@ -216,16 +213,16 @@
       font-size: 30px;
       }
     .greeting-section-img img {
-      width: 200px;
+      width: 400px;
       margin-top: 10px;
       -webkit-transition: -webkit-transform .5s ease-in-out;
       transition: transform .5s ease-in-out;
       cursor: pointer; cursor: hand;
       }
-    .greeting-section-img img:hover {
+    /*.greeting-section-img img:hover {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
-      }
+      }*/
     .greeting-section p {
       font-family: 'Muli', sans-serif;
       font-weight: 900;
@@ -239,7 +236,7 @@
       display: block;
       margin-top: 50px;
       padding-top: 80px;
-      height: 700px;
+      height: auto;
       background-color: white;
       border: 2px solid rgb(178,0,0);
       border-radius: 100px;
@@ -399,7 +396,7 @@
 
     /*** PORTFOLIO SECTION ***/
       .portfolio-section {
-        padding-top:80px;
+        padding-top:30px;
         }
       /*.portfolio-section h1 {
         text-align: center;
@@ -421,8 +418,6 @@
         font-size: 13px;
         }
 
-
-
       .portfolio-box{
         height:250px;
         width:31%;
@@ -440,7 +435,6 @@
       .portfolio-category .portfolio-box:first-of-type {
         margin-left: 1.5%;
         }
-
         /*these two empty boxes are only here to center an odd
         numbered of portfolio boxes.*/
         #empty-box-01 {
@@ -712,7 +706,6 @@
         appearance: button;
         text-decoration: none;
         }
-
       .resume-button {
         display: block;
         color: rgb(178, 0, 0);
@@ -729,7 +722,6 @@
         margin-right: auto;
         text-decoration: none;
         }
-
       .resume-button:hover {
         background-color: rgb(178, 0, 0);
         color: white;
@@ -796,9 +788,6 @@
       .about-section p span {
         font-size: 11px;
         }
-      .james p {
-
-      }
 
       #slideshow {
         margin: 20px auto;
@@ -855,7 +844,7 @@
         }
       input {
         border-radius: 10px;
-        border: 4px solid rgb(178, 0, 0);
+        border: 4px solid black;
         }
       .contact-section h1 {
         color: rgb(178, 0, 0);
@@ -864,7 +853,7 @@
         font-family: 'Muli', sans-serif;
         font-weight: 400;
         font-size: 19px;
-        color: rgb(178, 0, 0);
+        color: black;
         text-align: center;
         max-width: 80%;
         margin-left: auto;
@@ -880,7 +869,7 @@
         text-align: center;
         }
       .form-input {
-        background-color: rgb(236, 236, 236);
+        background-color: white;
         color: rgb(133, 7, 7);
         text-align: center;
         }

@@ -102,7 +102,7 @@
       transition: background-color 700ms linear;
       }
     .nav-section.scrolled {
-      /*background-color: white;*/
+      background-color: white;
       /*border-bottom: 2px solid rgb(178,0,0);*/
       }
     .wrapper{

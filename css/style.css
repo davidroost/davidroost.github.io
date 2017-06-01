@@ -48,6 +48,7 @@
       border-top: 4px solid black;
       width: 20%;
       }
+
     .separator-container {
       text-align: center;
       position: relative;
@@ -73,7 +74,21 @@
     a {
       text-decoration: none;
       }
-
+    hr.black-5px-full {
+      display: none;
+      }
+    .show-on-mobile {
+      display: none;
+      }
+    .hide-on-mobile {
+      display: block;
+      }
+    .header-full {
+      display: block;
+      }
+    .header-mobile {
+      display: none;
+      }
 /************************************* NAVIGATION SECTION *************************************/
 
     .nav-logo {
@@ -963,6 +978,30 @@
 
  @media screen and (max-width:768px){
 
+    hr.black-5px-full{
+      display: block;
+      border-top: 5px solid black;
+      width: 100%;
+      padding-bottom: 15px;
+      }
+    .section-head-line h1:before {
+      display: none;
+      }
+    .section-head-line h1:after {
+      display: none;
+      }
+    .hide-on-mobile {
+      display: none;
+      }
+    .show-on-mobile {
+      display: block;
+      }
+    .header-full {
+      display: none;
+      }
+    .header-mobile {
+      display: block;
+      }
 /*** NAVIGATION SECTION ***/
 
     nav {

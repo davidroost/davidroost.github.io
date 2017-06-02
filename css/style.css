@@ -446,7 +446,7 @@
 
             /*these two empty boxes are only here to center an odd
             numbered of portfolio boxes.*/
-            #empty-box-01 {
+            /*#connectthedoc {
               height:250px;
               width:31%;
               margin-left: 1.5%;
@@ -454,14 +454,13 @@
               float: left;
               border: 2px solid rgba(0,0,0,0);
               }
-            #empty-box-02 {
+            #davidroostcreative {
               height:250px;
               width:31%;
-              /*margin-left: 1.5%;*/
               border: none;
               float: left;
               border: 2px solid rgba(0,0,0,0);
-              }
+              }*/
 
       .portfolio-category {
         clear:both;
@@ -470,6 +469,10 @@
       .portfolio-category:last-of-type {
         margin-bottom: 10px;
         }
+      #davidroostcreative {
+        background-image: url('../content/drc-drop-in.png');}
+      #connectthedoc {
+        background-image: url('../content/3-A Draft-02.png');}
       #sea-b {
         background-image: url('../content/sea-b-image-01.png');}
       #sf-city {
@@ -577,10 +580,11 @@
         margin-left: auto;
         margin-right: auto;
         overflow: auto; /* Enable scroll if needed */
-        background-color: white; /* Fallback color */
+        background-color: rgba(255, 255, 255, 0.9); /* Fallback color */
         margin-top: 30px;
         border: 0px;
         }
+
 /******** THE CLOSE BUTTON ********/
 
       .close {
@@ -601,7 +605,7 @@
         clear:both;
         border: 0px;
         width: 85%;
-        height: 90%;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
         }
@@ -629,7 +633,8 @@
         margin-right: auto;
         }
       .project-image img {
-        max-width: 100%;
+        width: 100%;
+        max-width: 1000px;
         max-height: 1600px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -660,7 +665,8 @@
       .popup-content p {
         font-family: 'Muli', sans-serif;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 13px;
+        line-height: 140%;
         }
 
 /************************************* CONTACT SECTION *************************************/
@@ -821,6 +827,13 @@
         font-weight: 900;
         color: rgb(178,0,0);
         font-size: 36px;
+        }
+      .about-section h5 {
+        text-align: center;
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: black;
+        font-size: 18px;
         }
       .about-section h3 {
         font-family: 'Rokkitt', serif;
@@ -1024,7 +1037,7 @@
       width: 25px;
       height: 3px;
       /*background: white;*/
-      background: rgb(178, 0, 0);
+      background: black;
       margin-top: 3px;
       }
 

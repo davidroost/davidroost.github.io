@@ -39,7 +39,23 @@ $('.greeting-section-img').click(function(e) {
     }, 2000);
 });
 
+// ********************** BACKGROUND VIDEO FOR GREETING SECTION **********************
 
+
+(function() {
+  /**
+   * Video element
+   * @type {HTMLElement}
+   */
+  var video = document.getElementById("my-video");
+
+  /**
+   * Check if video can play, and play it
+   */
+  video.addEventListener( "canplay", function() {
+    video.play();
+  });
+})();
 
 
 // ********************** POP-UP WINDOW FOR PORTFOLIO SECTION **********************

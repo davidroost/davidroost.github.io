@@ -89,6 +89,9 @@
     .header-mobile {
       display: none;
       }
+    #video-hide-container {
+      background-color: white;
+    }
 /************************************* NAVIGATION SECTION *************************************/
 
     .nav-logo {
@@ -181,30 +184,39 @@
           }
 
 /************************************* GREETING SECTION *************************************/
-
-    .greeting-section {
-      background-image: url("../content/greeting-background-00-desktop.png");
-      width: 100%;
-      padding-top: 50px;
-      background-color: white;
-      min-height: auto;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-      -o-background-size: cover;
-      background-position: center;
+    .video-content {
+      position: relative;
+      top: 30%;
+      z-index: -100;
+      margin: 0 auto;
+      max-width: 720px;
       text-align: center;
       }
+    .greeting-section {
+      height: 685px;
+    }
+    .video {
+      position: fixed;
+
+      left: 50%;
+      margin-top: 50px;
+      top: 260px;
+      /*top: 50%;
+      left: 50%;*/
+      z-index: -200;
+      min-width: 100%;
+      min-height: 635px;
+      width: auto;
+      height: auto;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      }
+
     .black-line #line-2 {
       margin-top: 25px;
       }
-    .greeting-section {
-      display: block;
-      margin-top: 42px;
-      height: 1000px;
-      border-bottom-left-radius: 100px;
-      border-bottom-right-radius: 100px;
-      }
+
     .greeting-section h1 {
       padding-top: 50px;
       font-family: 'Pacifico', cursive;
@@ -221,11 +233,11 @@
       }
     .greeting-section h3 {
       font-family: 'Rokkitt', serif;
-      color: rgb(178,0,0);
+      color: white;
       font-size: 16px;
       }
     .greeting-section h3 span {
-      color: black;
+      color: white;
       }
     .greeting-section h4 {
       font-family: 'Lobster', cursive;
@@ -233,12 +245,42 @@
       font-size: 30px;
       }
     .greeting-section-img img {
+      width: 300px;
+      margin-top: -40px;
+    }
+      /*hide for video*/
+    /*.greeting-section-img img {
       width: 400px;
       margin-top: 10px;
       -webkit-transition: -webkit-transform .5s ease-in-out;
       transition: transform .5s ease-in-out;
       cursor: pointer; cursor: hand;
-      }
+      }*/
+    /*.greeting-section {
+      background-image: url("../content/greeting-background-00-desktop.png");
+      width: 100%;
+      padding-top: 50px;
+      background-color: white;
+      min-height: auto;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      background-position: center;
+      text-align: center;
+      }*/
+
+
+    /*.greeting-section {
+      display: block;
+      margin-top: 42px;
+      height: 1000px;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+      }*/
+
+/*end hide for video*/
+
     /*.greeting-section-img img:hover {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
@@ -581,7 +623,7 @@
         margin-right: auto;
         overflow: auto; /* Enable scroll if needed */
         background-color: rgba(255, 255, 255, 0.9); /* Fallback color */
-        margin-top: 30px;
+        padding-top: 30px;
         border: 0px;
         }
 
@@ -1043,18 +1085,24 @@
 
 /*** GREETING SECTION ***/
 
+    .greeting-section {
+      height: 500px;
+    }
     .greeting-section-img img {
+        width: 200px;
+        }
+    /*.greeting-section-img img {
         width: 300px;
         }
     .greeting-section {
       display: block;
       padding-top: 80px;
       height: 600px;
-      }
+      }*/
     .greeting-section h1 {
       margin-top: -20px;
       }
-    .greeting-section {
+    /*.greeting-section {
       background-image: url("../content/greeting-background-00.png");
       width: 100%;
       background-color: white;
@@ -1065,7 +1113,7 @@
       -o-background-size: cover;
       background-position: center;
       text-align: center;
-      }
+      }*/
     nav ul li:first-child {
       padding-top: 9px;
       margin-top: 10px;

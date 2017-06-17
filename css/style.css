@@ -223,7 +223,7 @@
       font-size: 40px;
       }
     .greeting-section h1 span{
-      color: black;
+      color: rgb(177, 177, 177);
       }
     .greeting-section h2 {
       font-family: 'Muli', sans-serif;
@@ -237,11 +237,12 @@
       font-size: 16px;
       }
     .greeting-section h3 span {
-      color: white;
+      color: rgb(177, 177, 177);
       }
     .greeting-section h4 {
       font-family: 'Lobster', cursive;
-      color: rgb(178,0,0);
+      color: rgb(177, 177, 177);
+      text-shadow: 2px 2px black;
       font-size: 30px;
       }
     .greeting-section-img img {

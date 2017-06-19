@@ -40,6 +40,10 @@
       border-top: 4px solid rgb(178, 0, 0);
       width: 70%;
       }
+    hr.grey-line-fewd {
+      border-top: 4px solid rgb(128, 128, 128);
+      width: 70%;
+      }
     hr.blue-line{
       border-top: 4px solid rgb(155, 218, 252);
       width: 20%;
@@ -48,13 +52,20 @@
       border-top: 4px solid black;
       width: 20%;
       }
-
+    hr.grey-line{
+      border-top: 4px solid rgb(128, 128, 128);
+      width: 20%;
+      }
+    hr.white-line{
+      border-top: 4px solid rgb(128, 128, 128);
+      width: 20%;
+      }
     .separator-container {
       text-align: center;
       position: relative;
       }
     body {
-      background-color: white;
+      background-color: rgb(51,51,51);
       }
     h1 {
       text-align: center;
@@ -67,10 +78,22 @@
       color: black;
       text-decoration: none;
       }
+    .white {
+      color: white;
+      text-decoration: none;
+      }
+    .grey {
+      color: rgb(128, 128, 128);
+      text-decoration: none;
+      }
     .red {
       color: rgb(178, 0, 0);
       text-decoration: none;
       }
+    .new-blue {
+      color: rgb(0, 204, 255);
+      text-decoration: none;
+    }
     a {
       text-decoration: none;
       }
@@ -90,13 +113,14 @@
       display: none;
       }
     #video-hide-container {
-      background-color: white;
+      background-color: rgb(51,51,51);
+      margin-top: -50px;
     }
 /************************************* NAVIGATION SECTION *************************************/
 
     .nav-logo {
       float: left;
-      border-radius: 60%;
+
       margin-left: 20px;
       margin-top: 5px;
       -webkit-transition: -webkit-transform .5s ease-in-out;
@@ -141,8 +165,8 @@
       text-decoration: none;
       font-weight: bold;
       font-family: 'Oswald', sans-serif;
-      font-size:14px;
-      color: black;
+      font-size: 13px;
+      color: white;
       }
     .david-roost-header {
       float: left;
@@ -155,11 +179,11 @@
       /*text-shadow: 0 0 6px rgb(0, 0, 0);*/
       }
     .david-roost-header:hover {
-      color: rgb(178, 0, 0);
+      color: rgb(0, 204, 255);
       text-shadow: none;
       }
     ul li a:hover{
-      color: rgb(178, 0, 0);
+      color: rgb(0, 204, 255);
       text-shadow: none;
       }
     nav ul li:first-child{
@@ -179,44 +203,50 @@
           transition: background-color 700ms linear;
           }
         .nav-section.scrolled {
-          background-color: white;
+          background-color: black;
           /*border-bottom: 2px solid rgb(178,0,0);*/
           }
 
 /************************************* GREETING SECTION *************************************/
+
+    .video-overlay-color {
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      margin-bottom: 50px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -3;
+      }
     .video-content {
       position: relative;
       top: 30%;
-      z-index: -100;
+      z-index: 1;
       margin: 0 auto;
       max-width: 720px;
       text-align: center;
       }
     .greeting-section {
       height: 685px;
-    }
+      }
     .video {
       position: fixed;
-
       left: 50%;
       margin-top: 50px;
       top: 260px;
-      /*top: 50%;
-      left: 50%;*/
-      z-index: -200;
+      z-index: -4;
       min-width: 100%;
       min-height: 635px;
       width: auto;
-      height: auto;
+      height: 100%;
       -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       }
-
     .black-line #line-2 {
       margin-top: 25px;
       }
-
     .greeting-section h1 {
       padding-top: 50px;
       font-family: 'Pacifico', cursive;
@@ -246,8 +276,8 @@
       font-size: 30px;
       }
     .greeting-section-img img {
-      width: 300px;
-      margin-top: -40px;
+      width: 400px;
+      margin-top: 40px;
     }
       /*hide for video*/
     /*.greeting-section-img img {
@@ -297,14 +327,14 @@
 
     .fewd-section {
       display: block;
-      margin-top: 50px;
+      margin-top: 40px;
       padding-top: 80px;
       height: auto;
-      background-color: white;
+      background-color: rgb(51,51,51);
       }
     .fewd-section h2 {
       font-family: 'Lobster', cursive;
-      color: black;
+      color: rgb(128, 128, 128);
       font-size: 20px;
       text-align: center;
       }
@@ -317,12 +347,16 @@
       height: 50px;
       }
     .fewd-section h3 {
-      font-family: 'Muli', sans-serif;
-      font-weight: 900;
-      color: rgb(178, 0, 0);
+      font-family: 'Rokkitt', serif;
+      font-weight: 400;
+      color: rgb(128, 128, 128);
       font-size: 18px;
       text-align: center;
       }
+
+  .fewd-section h3 span {
+    color: white;
+    }
     #tab {
       margin-top: 25px;
       margin-left: auto;
@@ -330,21 +364,21 @@
       max-width: 70%;
       }
     .tab h1:hover {
-      color: rgb(178, 0, 0);
+      color: rgb(0, 204, 255);
       }
     .tab h1 {
       font-family: 'Oswald', sans-serif;
-      color: black;
+      color: white;
       font-size: 35px;
       text-align: center;
       }
     .fewd-section p {
-      color: rgb(178, 0, 0);
+      color: white;
       text-align: center;
       font-family: 'Muli', sans-serif;
       font-weight: 400;
       max-width: 70%;
-      font-size: 15px;
+      font-size: 13px;
       margin-left: auto;
       margin-right: auto;
       }
@@ -352,7 +386,7 @@
       clear: both;
       }
     .fewd-black-p {
-      color: black;
+      color: white;
       }
     .fadeInBlock {
       opacity:0;
@@ -366,18 +400,16 @@
     button#fewd-button {
       display: block;
       color: white;
-      background: rgb(178, 0, 0);
-      border: 4px solid rgb(133, 7, 7);
+      background: rgb(51,51,51);
+      border: 2px solid white;
       width: 180px;
       height: 40px;
-      border-radius: 10px;
       font-family: 'Oswald', sans-serif;
       font-size:10px;
-      color: white;
       cursor: pointer; cursor: hand;
       }
     button#fewd-button:hover {
-      background-color: rgb(133, 7, 7);
+      background-color: rgb(128, 128, 128);
       }
 
 /********FEWD MODAL BACKGROUND********/
@@ -391,14 +423,14 @@
           width: 100%; /* Full width */
           height: 100%; /* Full height */
           overflow: auto; /* Enable scroll if needed */
-          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: BLACK; /* Fallback color */
           background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
           }
 
 /******** FEWD MODAL CONTENT/BOX ********/
 
         .modal-content {
-          background-color: #fefefe;
+          background-color: black;
           margin: 5% auto; /* 15% from the top and centered */
           padding: 20px;
           border: 1px solid #888;
@@ -443,28 +475,41 @@
           }
         .fewd-section h4 {
           font-family: 'Oswald', sans-serif;
-          color: black;
+          color: rgb(128, 128, 128);
           font-weight: bold;
           text-align: center;
-          font-size: 12px;
+          font-size: 14px;
           }
         .fewd-section a {
           color: black;
           }
 
 /************************************* PORTFOLIO SECTION *************************************/
+      .portfolio-section h1 {
+        margin-top: 25px;
+        padding-top: 250px;
+        color: white;
+      }
+      .portfolio-section h6 {
+        margin-top: 25px;
+        text-align: center;
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 24px;
 
+      }
       .portfolio-section {
         padding-top:60px;
         }
       .portfolio-category h2 {
         font-family: 'Oswald', sans-serif;
         text-align: center;
-        color: rgb(178, 0, 0);
+        color: rgb(128, 128, 128);
         font-size: 24px;
         }
       .portfolio-category p {
-        color: black;
+        color: white;
         font-family: 'Muli', sans-serif;
         font-weight: 400;
         font-size: 13px;
@@ -475,7 +520,7 @@
         margin:.75%;
         float:left;
         border: 2px solid rgba(84, 84, 84, 0.44);
-        border-radius: 10px;
+        /*border-radius: 10px;*/
         min-height: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -600,7 +645,7 @@
         height: 100%;
         width: 100%;
         opacity: 0;
-        border-radius: 8px;
+        /*border-radius: 8px;*/
         transition: .5s ease;
         background-color: rgba(0, 0, 0, 0.75);
         }
@@ -733,13 +778,13 @@
       border: 4px solid black;
       }
     .contact-section h1 {
-      color: rgb(178, 0, 0);
+      color: rgb(128, 128, 128);
       }
     .contact-section p {
       font-family: 'Muli', sans-serif;
       font-weight: 400;
-      font-size: 19px;
-      color: black;
+      font-size: 13px;
+      color: white;
       text-align: center;
       max-width: 80%;
       margin-left: auto;
@@ -749,85 +794,33 @@
     .contact-section h6 {
       font-family: 'Muli', sans-serif;
       font-weight: 900;
-      color: black;
+      color: rgb(128, 128, 128);
       text-align: center;
       font-size: 12px;
       }
 
 
-/*** (THIS WAS LATER REMOVED, BUT I'M KEEPING THE CODE HIDDEN HERE IF I EVER WANT TO BRING IT BACK )***/
-
-    form {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      }
-    input.placeholder {
-      text-align: center;
-      }
-    .form-input {
-      background-color: white;
-      color: rgb(133, 7, 7);
-      text-align: center;
-      }
-    .form-left {
-      float: left;
-      width: calc(50% - 10px);
-      height: 125px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      }
-    .form-left .form-input {
-      float: right;
-      }
-    .form-left .form-input:last-child {
-      margin-top: 15px;
-      }
-    .form-right {
-      float: left;
-      width: calc(50% - 10px); /*this is how you split the size of the content without having to add and subtract pixels*/
-      height: 125px;
-      margin-left: 10px;
-      margin-bottom: 10px;
-      }
-    .form-right .form-input {
-      float: left;
-      }
-    .form-button {
-      clear: both;
-      margin-right: auto;
-      margin-left: auto;
-      }
-    button.form-button {
-      display: block;
-      color: white;
-      background: rgb(178, 0, 0);
-      border: 4px solid rgb(133, 7, 7);
-      width: 150px;
-      height: 50px;
-      border-radius: 10px;
-      font-weight: bold;
-      font-family: 'Oswald', sans-serif;
-      font-size:14px;
-      color: white;
-      cursor: pointer; cursor: hand;
-      }
-    button.form-button:hover {
-      background-color: rgb(133, 7, 7);
-      }
-
 /*************************************  ABOUT ME SECTION *************************************/
       .about-section {
         clear: both;
         display: block;
-        padding-top:60px;
-
+        /*padding-top:60px;*/
+        background-image: url("../content/desk-grey.png");
+        width: 100%;
+        background-color: white;
+        min-height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
+        text-align: center;
         }
       .about-section-80-percent-width {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        background-color: white;
+        /*background-color: rgb(51,51,51);*/
         text-align: center;
         }
       a.resume-button {
@@ -880,7 +873,7 @@
         }
       .about-section h3 {
         font-family: 'Rokkitt', serif;
-        color: rgb(178,0,0);
+        color:  white;
         font-weight: 600;
         width: 85%;
         margin-left: auto;
@@ -891,6 +884,10 @@
       .about-section h3 span {
         color: black;
         }
+      .about-section span.new-blue {
+        color: rgb(0, 204, 255);
+        text-decoration: none;
+      }
       .about-section h4 {
         font-family: 'Lobster', cursive;
         color: black;
@@ -968,20 +965,19 @@
         transform: rotate(360deg);
         }
       footer {
-        background-color: white;
-        border-top: 2px solid rgb(178,0,0);
-        border-right: 2px solid rgb(178,0,0);
-        border-left: 2px solid rgb(178,0,0);
+        background-color: rgb(51,51,51);
+        border-top: 2px solid rgb(128, 128, 128);
+
         }
       footer p {
         font-family: 'Muli', sans-serif;
         font-weight: 900;
-        color: rgb(178,0,0);
+        color: white;
         text-align: center;
         font-size: 10px;
         }
       p .note-on-coding {
-        color: black;
+        color: rgb(128, 128, 128);
         font-family: 'Muli', sans-serif;
         font-weight: 400;
         font-size: 10px;
@@ -1001,7 +997,7 @@
             text-align: center;
             font-family: 'Muli', sans-serif;
             font-weight: 900;
-            color: rgb(178,0,0);
+            color: white;
             font-size: 24px;
             }
           .section-head-line h1:before, .section-head-line h1:after {
@@ -1009,11 +1005,38 @@
             top: 51%;
             overflow: hidden;
             width: 50%;
-            height: 5px;
+            height: 3px;
             content: '\a0';
-            background-color: black;
+            background-color: rgb(128, 128, 128);
             }
           .section-head-line h1:before {
+            margin-left: -50%;
+            text-align: right;
+            }
+
+
+          .section-head-line h6 {
+            position: relative;
+            font-size: 30px;
+            /*z-index: 1;*/
+            overflow: hidden;
+            text-align: center;
+            text-align: center;
+            font-family: 'Muli', sans-serif;
+            font-weight: 900;
+            color: white;
+            font-size: 24px;
+            }
+          .section-head-line h6:before, .section-head-line h6:after {
+            position: absolute;
+            top: 51%;
+            overflow: hidden;
+            width: 50%;
+            height: 3px;
+            content: '\a0';
+            background-color: rgb(128, 128, 128);
+            }
+          .section-head-line h6:before {
             margin-left: -50%;
             text-align: right;
             }
@@ -1036,7 +1059,7 @@
 
     hr.black-5px-full{
       display: block;
-      border-top: 5px solid black;
+      border-top: 5px solid rgb(128, 128, 128);
       width: 100%;
       padding-bottom: 15px;
       }
@@ -1044,6 +1067,13 @@
       display: none;
       }
     .section-head-line h1:after {
+      display: none;
+      }
+
+    .section-head-line h6:before {
+      display: none;
+      }
+    .section-head-line h6:after {
       display: none;
       }
     .hide-on-mobile {

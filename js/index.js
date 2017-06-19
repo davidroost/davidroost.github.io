@@ -19,6 +19,9 @@ $(document).ready(function(){
   */
 
 
+
+
+
 // scroll menu :)
 
 $(".menu li a").click(function(e) {
@@ -38,6 +41,15 @@ $('.greeting-section-img').click(function(e) {
         scrollTop: $("#portfolio-section").offset().top + offset
     }, 2000);
 });
+
+$('.fewd-scroll').click(function(e) {
+    e.preventDefault();
+    var offset = 20; //Offset of 20px
+    $('html, body').animate({
+        scrollTop: $("#fewd-section").offset().top + offset
+    }, 2000);
+});
+
 
 // ********************** BACKGROUND VIDEO FOR GREETING SECTION **********************
 
@@ -210,7 +222,7 @@ setInterval(function() {
 
 });
 
-
+// new blue rgb(0, 204, 255);
 // baby-blue:  rgb(155, 218, 252);
 // brown:      rgb(133, 96, 70);
 // red:        rgb(178, 0, 0);

@@ -36,6 +36,19 @@
       border-top: 4px solid rgb(178, 0, 0);
       width: 20%;
       }
+    hr.freddys-red-line{
+      border-top: 4px solid rgb(240,88,89);
+      width: 20%;
+      }
+    hr.freddys-blue-line{
+      border-top: 4px solid rgb(42,193,223);
+      width: 20%;
+      }
+
+    hr.freddys-blue-line-70{
+      border-top: 4px solid rgb(42,193,223);
+      width: 70%;
+      }
     hr.red-line-fewd {
       border-top: 4px solid rgb(178, 0, 0);
       width: 70%;
@@ -44,20 +57,30 @@
       border-top: 4px solid rgb(128, 128, 128);
       width: 70%;
       }
+    hr.red-line-fewd {
+      border-top: 4px solid rgb(240, 88, 89);
+      width: 70%;
+      }
     hr.blue-line{
       border-top: 4px solid rgb(155, 218, 252);
+      width: 20%;
+      }
+    hr.dark-grey-line{
+      border-top: 4px solid rgb(128,128,128);
       width: 20%;
       }
     hr.black-line{
       border-top: 4px solid black;
       width: 20%;
       }
-    hr.grey-line{
-      border-top: 4px solid rgb(128, 128, 128);
+
+      }
+    hr.freddys-red-line{
+      border-top: 4px solid rgb(240, 88, 89);
       width: 20%;
       }
     hr.white-line{
-      border-top: 4px solid rgb(128, 128, 128);
+      border-top: 4px solid white;;
       width: 20%;
       }
     .separator-container {
@@ -100,6 +123,7 @@
     hr.black-5px-full {
       display: none;
       }
+
     .show-on-mobile {
       display: none;
       }
@@ -115,6 +139,9 @@
     #video-hide-container {
       background-color: rgb(51,51,51);
       margin-top: -50px;
+      }
+  .fewd-section span.red-span {
+      color: rgb(240,88,89);
     }
 /************************************* NAVIGATION SECTION *************************************/
 
@@ -346,16 +373,79 @@
       margin-right: 10px;
       height: 50px;
       }
-    .fewd-section h3 {
-      font-family: 'Rokkitt', serif;
-      font-weight: 400;
-      color: rgb(128, 128, 128);
-      font-size: 18px;
-      text-align: center;
-      }
+  .tab-01 {
+    float: left;
+    width: calc(33% - 20px);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    line-height: 15px;
+    margin-bottom: 85px;
 
-  .fewd-section h3 span {
+    }
+
+
+
+
+
+
+
+  .tab-01-01 {
+    border: 1px solid rgb(240,88,89);
+    padding: 20px 0px 20px 0px;
+    }
+  .tab-01-02 {
+    border: 1px solid rgb(42,193,223);
+    padding: 20px 0px 20px 0px;
+    }
+  .tab-01-03 {
+    border: 1px solid rgb(240,178,10);
+    padding: 20px 0px 20px 0px;
+    }
+  #tab-01 {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    }
+  #tab-01 p {
+    font-size: 11px;
+  }
+  .tab-01 h1:hover {
     color: white;
+    }
+
+  .tab-01-01 h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(240,88,89);
+    font-size: 35px;
+    text-align: center;
+    }
+  .tab-01-02 h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(42,193,223);
+    font-size: 35px;
+    text-align: center;
+    }
+  .tab-01-03 h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(240,178,10);
+    font-size: 35px;
+    text-align: center;
+    }
+  .fewd-section h3 {
+      color: white;
+      text-align: center;
+      font-family: 'Muli', sans-serif;
+      font-weight: 400;
+      max-width: 80%;
+      font-size: 13px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .fewd-section h3 span {
+    color: rgb(42,193,223);
     }
     #tab {
       margin-top: 25px;
@@ -364,7 +454,7 @@
       max-width: 70%;
       }
     .tab h1:hover {
-      color: rgb(0, 204, 255);
+      color: rgb(42,193,223);
       }
     .tab h1 {
       font-family: 'Oswald', sans-serif;
@@ -372,16 +462,28 @@
       font-size: 35px;
       text-align: center;
       }
+
     .fewd-section p {
       color: white;
       text-align: center;
       font-family: 'Muli', sans-serif;
       font-weight: 400;
-      max-width: 70%;
+      max-width: 80%;
       font-size: 13px;
       margin-left: auto;
       margin-right: auto;
       }
+    .fewd-section p span {
+      color: rgb(128, 128, 128);
+      }
+    .tab h2 {
+      font-family: 'Oswald', sans-serif;
+      color: white;
+      font-size: 318px;
+      text-align: center;
+      }
+
+
     .fewd-text {
       clear: both;
       }
@@ -399,17 +501,18 @@
       }
     button#fewd-button {
       display: block;
-      color: white;
+      color: rgb(42, 193,223);
       background: rgb(51,51,51);
-      border: 2px solid white;
-      width: 180px;
-      height: 40px;
+      border: 1px solid rgb(42, 193,223);
+      width: 265px;
+      height: 50px;
       font-family: 'Oswald', sans-serif;
       font-size:10px;
       cursor: pointer; cursor: hand;
       }
     button#fewd-button:hover {
-      background-color: rgb(128, 128, 128);
+      background-color: rgb(42, 193,223);
+      color: white;
       }
 
 /********FEWD MODAL BACKGROUND********/
@@ -424,13 +527,13 @@
           height: 100%; /* Full height */
           overflow: auto; /* Enable scroll if needed */
           background-color: BLACK; /* Fallback color */
-          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+          background-color: rgba(255,255,255,0.4); /* Black w/ opacity */
           }
 
 /******** FEWD MODAL CONTENT/BOX ********/
 
         .modal-content {
-          background-color: black;
+          background-color: rgb(51,51,51);
           margin: 5% auto; /* 15% from the top and centered */
           padding: 20px;
           border: 1px solid #888;
@@ -438,7 +541,8 @@
           }
         .modaltallpic img {
           width: 100%;
-          max-height: 700px;
+          clear: both;
+          /*max-height: 500px;*/
           margin-top: 10px;
           margin-bottom: 10px;
           border: 1px solid black;
@@ -451,7 +555,25 @@
           -o-background-size: cover;
           background-position: center;
           }
+     .modal-content h3 {
+        font-family: 'Oswald', sans-serif;
+        color: rgb(42,193,223);
+        font-size: 14px;
+        }
+      .modal-content p {
+        font-family: 'Muli', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        max-width: 60%;
+        line-height: 140%;
+        color: white;
+              }
 
+     /*.modal-content h4 {
+        font-family: 'Oswald', sans-serif;
+        color: rgb(42,193,223);
+        font-size: 14px;
+        }*/
 /******** THE CLOSE BUTTON ********/
 
         .closefewd {
@@ -463,28 +585,63 @@
           }
         .closefewd:hover,
         .closefewd:focus {
-          color: black;
+          color: rgb(42,193,223);
           text-decoration: none;
           cursor: pointer;
           }
-        .modal-content p {
-          max-width: 80%;
+
+        .closefewdbottom {
+          color: white;
+          font-family: 'Oswald', sans-serif;
+          font-size: 13px;
+          text-align: center;
           }
+        .closefewdbottom:hover,
+        .closefewdbottom:focus {
+          color: rgb(42,193,223);
+          text-decoration: none;
+          cursor: pointer;
+          }
+
         .modal-content h3 {
           font-size: 30px;
           }
         .fewd-section h4 {
           font-family: 'Oswald', sans-serif;
-          color: rgb(128, 128, 128);
+          color: rgb(42,193,223);
           font-weight: bold;
           text-align: center;
           font-size: 14px;
+          }
+        .fewd-section h4:hover {
+          color: white;
+          }
+        h4 span{
+          font-family: 'Oswald', sans-serif;
+          color: white;
+          text-align: center;
+          font-size: 13px;
           }
         .fewd-section a {
           color: black;
           }
 
 /************************************* PORTFOLIO SECTION *************************************/
+
+    .portfolio-section p {
+      color: white;
+      text-align: center;
+      font-family: 'Muli', sans-serif;
+      font-weight: 400;
+      max-width: 80%;
+      font-size: 13px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    .portfolio-section p span {
+      color: rgb(128, 128, 128);
+      }
+
       .portfolio-section h1 {
         margin-top: 25px;
         padding-top: 250px;
@@ -499,6 +656,60 @@
         font-size: 24px;
 
       }
+
+  /*portfolio skills boxes*/
+      .portfolio-section h5 {
+      font-family: 'Muli', sans-serif;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      font-size: 10 px;
+      }
+.skills-list {
+  display: none;
+}
+
+    .portfolio-section p span {
+
+    color: rgb(240,88,89);
+
+    }
+
+  .tab-02{
+    float: left;
+    width: calc(25% - 20px);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    line-height: 15px;
+    margin-bottom: 50px;
+    }
+
+
+  button#skill-button {
+    display: block;
+    color: white;
+    background: rgb(51,51,51);
+    border: 1px solid rgb(240,88,89);
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size:10px;
+    cursor: pointer; cursor: hand;
+    }
+  button#skill-button:hover {
+    background-color: rgb(240,88,89);
+    }
+
+
+
+
+
+
+
       .portfolio-section {
         padding-top:60px;
         }
@@ -519,7 +730,7 @@
         width:31%;
         margin:.75%;
         float:left;
-        border: 2px solid rgba(84, 84, 84, 0.44);
+        border: 2px solid black;
         /*border-radius: 10px;*/
         min-height: auto;
         -webkit-background-size: cover;
@@ -761,6 +972,8 @@
 
     .contact-section {
       padding-top:80px;
+      /*margin-top: 100px;*/
+      margin-bottom: 100px;
       }
     .close-bottom {
       clear: both;
@@ -791,6 +1004,12 @@
       margin-right: auto;
       line-height: 30px;
       }
+    .contact-section p span {
+      color: rgb(240,88,89);
+      }
+    .contact-section p span:hover {
+      color: rgb(42,193,223);
+      }
     .contact-section h6 {
       font-family: 'Muli', sans-serif;
       font-weight: 900;
@@ -799,16 +1018,59 @@
       font-size: 12px;
       }
 
+  #contact-button {
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    }
+  button#contact-button {
+    display: block;
+    color: white;
+    background: rgb(51,51,51);
+    border: 1px solid rgb(42,193,223);
+    width: 265px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size:10px;
+    cursor: pointer; cursor: hand;
+    }
+  button#contact-button:hover {
+    background-color: rgb(42,193,223);
+    }
 
+  #resume-button {
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    }
+  button#resume-button {
+    display: block;
+    color: white;
+    background: rgb(51,51,51);
+    border: 1px solid rgb(240,88,89);
+    width: 265px;
+    height: 120px;
+    font-family: 'Oswald', sans-serif;
+    font-size:10px;
+    cursor: pointer; cursor: hand;
+    }
+  button#resume-button:hover {
+    background-color: rgb(240,88,89);
+    }
 /*************************************  ABOUT ME SECTION *************************************/
+#about-section {
+    /*min-height: 900*/
+}
       .about-section {
+        padding-top: 70px;
         clear: both;
         display: block;
-        /*padding-top:60px;*/
-        background-image: url("../content/desk-grey.png");
+        background-image: url("../content/about-bk.png");
         width: 100%;
-        background-color: white;
-        min-height: auto;
+        background-color: rgb(51,51,51);
+height: 1200px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -947,6 +1209,8 @@
         z-index: 1;
         }
 
+
+
 /************************************* FOOTER SECTION *************************************/
 
       .footer-logo {
@@ -966,13 +1230,13 @@
         }
       footer {
         background-color: rgb(51,51,51);
-        border-top: 2px solid rgb(128, 128, 128);
+        border-top: 2px solid rgb(240,88,89);
 
         }
       footer p {
         font-family: 'Muli', sans-serif;
         font-weight: 900;
-        color: white;
+        color: rgb(240,88,89);
         text-align: center;
         font-size: 10px;
         }
@@ -1007,7 +1271,7 @@
             width: 50%;
             height: 3px;
             content: '\a0';
-            background-color: rgb(128, 128, 128);
+            background-color: rgb(42,193,223);
             }
           .section-head-line h1:before {
             margin-left: -50%;
@@ -1034,7 +1298,7 @@
             width: 50%;
             height: 3px;
             content: '\a0';
-            background-color: rgb(128, 128, 128);
+            background-color: rgb(42,193,223);
             }
           .section-head-line h6:before {
             margin-left: -50%;
@@ -1049,6 +1313,37 @@
 
 /*************************************  MOBILE VERSION *************************************/
 
+ @media screen and (max-width:1055px){
+    .tab-01 {
+      display: block;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-top: 20px;
+      }
+    .tab-01 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      }
+    .tab-01:nth-child(2) {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      }
+    .tab-01:last-child {
+      margin-top: 20px;
+      margin-bottom: 80px;
+      }
+    button#resume-button {
+      height: 40px;
+      }
+
+    .tab-02 {
+      display: none;
+      }
+.skills-list {
+  display: block;
+}
     /* this is the style section for all screens (likely tablets and mobile devices) where the page
     width is 768 pixles or less - instead of making multiple media queries, I made everything on the
     website scalable so it looks as I want it to if you're on a laptop or a 27" monitor, however, when
@@ -1059,7 +1354,7 @@
 
     hr.black-5px-full{
       display: block;
-      border-top: 5px solid rgb(128, 128, 128);
+      border-top: 5px solid rgb(42,193,223);
       width: 100%;
       padding-bottom: 15px;
       }
@@ -1110,7 +1405,7 @@
       width: 25px;
       height: 3px;
       /*background: white;*/
-      background: black;
+      background: white;
       margin-top: 3px;
       }
 
@@ -1169,7 +1464,7 @@
 /*** FEWD SECTION ***/
 
     .fewd-section {
-      height: 950px;
+      /*height: 950px;*/
       }
 
     .tab {
@@ -1179,9 +1474,21 @@
       margin-right: auto;
       width: 70%;
       }
+    .tab-01 {
+      display: block;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-top:
+      }
 
 /*** PORTFOLIO SECTION ***/
 
+      .portfolio-section h1 {
+        clear:both;
+        padding-top: 30px;
+        }
       .portfolio-box {
         height:200px;
         display: block;

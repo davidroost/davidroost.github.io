@@ -1352,6 +1352,9 @@ height: 1200px;
 
  @media screen and (max-width:768px){
 
+   .video-combined {
+     display: none;
+   }
     hr.black-5px-full{
       display: block;
       border-top: 5px solid rgb(42,193,223);
@@ -1428,8 +1431,9 @@ height: 1200px;
     .greeting-section h1 {
       margin-top: -20px;
       }
-    /*.greeting-section {
-      background-image: url("../content/greeting-background-00.png");
+    .greeting-section {
+      height: 675px;
+      background-image: url("../content/sunset-02-DARK.jpg");
       width: 100%;
       background-color: white;
       min-height: auto;
@@ -1439,7 +1443,7 @@ height: 1200px;
       -o-background-size: cover;
       background-position: center;
       text-align: center;
-      }*/
+      }
     nav ul li:first-child {
       padding-top: 9px;
       margin-top: 10px;

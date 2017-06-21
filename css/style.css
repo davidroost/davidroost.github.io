@@ -235,6 +235,27 @@
           }
 
 /************************************* GREETING SECTION *************************************/
+/*roost logo effect on hover*/
+  .greeting-section-img img:last-child {
+    display: none;
+    }
+  .greeting-section-img:hover img:first-child {
+    display:none;
+    }
+  .greeting-section-img:hover img:last-child {
+    display:inline;
+    }
+
+/*Arrow hover effect*/
+    .fewd-scroll img:last-child {
+      display: none;
+      }
+    .fewd-scroll:hover img:first-child {
+      display:none;
+      }
+    .fewd-scroll:hover img:last-child {
+      display:inline;
+      }
 
     .video-overlay-color {
       background: rgba(0, 0, 0, 0.4);
@@ -304,7 +325,7 @@
       }
     .greeting-section-img img {
       width: 400px;
-      margin-top: 40px;
+      margin-top: 20px;
     }
       /*hide for video*/
     /*.greeting-section-img img {
@@ -343,19 +364,42 @@
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
       }*/
-    .greeting-section p {
-      font-family: 'Muli', sans-serif;
-      font-weight: 900;
-      color: black;
-      text-align: center;
-      font-size: 8px;
-      }
+
+  .greeting-section p {
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    font-size: 8px;
+    }
+
+  .white-box-01 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    position: relative;
+    border-right: 1px solid rgb(42,193,223);
+    border-left:  1px solid rgb(42,193,223);
+    margin-top: 200px;
+    }
+
 /************************************* FEWD SECTION *************************************/
+
+  .white-box-02 {
+    width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    border-right: 1px solid rgb(42,193,223);
+    border-left:  1px solid rgb(42,193,223);
+    }
+
+
 
     .fewd-section {
       display: block;
-      margin-top: 40px;
-      padding-top: 80px;
       height: auto;
       background-color: rgb(51,51,51);
       }
@@ -469,7 +513,7 @@
       font-family: 'Muli', sans-serif;
       font-weight: 400;
       max-width: 80%;
-      font-size: 13px;
+      font-size: 14px;
       margin-left: auto;
       margin-right: auto;
       }
@@ -1314,6 +1358,17 @@ height: 1200px;
 /*************************************  MOBILE VERSION *************************************/
 
  @media screen and (max-width:1055px){
+    .portfolio-skills-hide {
+      display: none;
+      }
+    .white-box-01 {
+      width: 500px;
+      height: 50px;
+      margin-top: 200px;
+      }
+    .white-box-02 {
+      width: 500px;
+      }
     .tab-01 {
       display: block;
       float: none;
@@ -1341,9 +1396,9 @@ height: 1200px;
     .tab-02 {
       display: none;
       }
-.skills-list {
-  display: block;
-}
+    .skills-list {
+      display: block;
+      }
     /* this is the style section for all screens (likely tablets and mobile devices) where the page
     width is 768 pixles or less - instead of making multiple media queries, I made everything on the
     website scalable so it looks as I want it to if you're on a laptop or a 27" monitor, however, when
@@ -1352,9 +1407,20 @@ height: 1200px;
 
  @media screen and (max-width:768px){
 
-   .video-combined {
-     display: none;
-   }
+
+
+    .white-box-01 {
+      width: 300px;
+      height: 50px;
+      margin-top: 250px;
+      }
+
+    .white-box-02 {
+      width: 300px;
+      }
+    .video-combined {
+      display: none;
+      }
     hr.black-5px-full{
       display: block;
       border-top: 5px solid rgb(42,193,223);
@@ -1416,10 +1482,10 @@ height: 1200px;
 
     .greeting-section {
       height: 500px;
-    }
+      }
     .greeting-section-img img {
-        width: 200px;
-        }
+      width: 250px;
+      }
     /*.greeting-section-img img {
         width: 300px;
         }

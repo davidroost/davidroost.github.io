@@ -116,7 +116,11 @@
     .new-blue {
       color: rgb(0, 204, 255);
       text-decoration: none;
-    }
+      }
+    .freddys-red {
+      color: rgb(240,88,89);
+      text-decoration: none;
+      }
     a {
       text-decoration: none;
       }
@@ -143,6 +147,7 @@
   .fewd-section span.red-span {
       color: rgb(240,88,89);
     }
+
 /************************************* NAVIGATION SECTION *************************************/
 
     .nav-logo {
@@ -235,16 +240,10 @@
           }
 
 /************************************* GREETING SECTION *************************************/
-/*roost logo effect on hover*/
-  .greeting-section-img img:last-child {
-    display: none;
-    }
-  .greeting-section-img:hover img:first-child {
-    display:none;
-    }
-  .greeting-section-img:hover img:last-child {
-    display:inline;
-    }
+
+    .fewd-scroll {
+position:relative;
+  }
 
 /*Arrow hover effect*/
     .fewd-scroll img:last-child {
@@ -256,6 +255,67 @@
     .fewd-scroll:hover img:last-child {
       display:inline;
       }
+
+
+/*trace logo intro*/
+
+
+svg {
+  max-width: 250%;
+  max-height: 250%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 200px;
+}
+svg path{
+  fill-opacity: 0;
+  fill: #fff !important;
+  stroke: rgb(42,193,223);
+  stroke-width: 2;
+  stroke-dasharray: 3319;
+  stroke-dashoffset: 3319;
+  animation-name: draw;
+  animation-duration: 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+svg #Shadows__x28_positive_x29_ path {
+  animation-delay: 2s;
+}
+
+@keyframes draw {
+  90% {
+    stroke-dashoffset: 0;
+    stroke-width: 2;
+    fill-opacity: 0;
+  }
+  100% {
+    stroke-width: 0;
+    fill-opacity: 1;
+  }
+}
+
+
+
+
+
+/*roost logo effect on hover*/
+  /*.greeting-section-img img:last-child {
+    display: none;
+    }
+  .greeting-section-img:hover img:first-child {
+    display:none;
+    }
+  .greeting-section-img:hover img:last-child {
+    display:inline;
+    }*/
+
+
 
     .video-overlay-color {
       background: rgba(0, 0, 0, 0.4);
@@ -323,10 +383,20 @@
       text-shadow: 2px 2px black;
       font-size: 30px;
       }
-    .greeting-section-img img {
+
+
+    /*.greeting-section-img img {
       width: 400px;
       margin-top: 20px;
-    }
+    }*/
+
+
+
+
+
+
+
+
       /*hide for video*/
     /*.greeting-section-img img {
       width: 400px;
@@ -377,11 +447,11 @@
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
+    height: 60px;
     position: relative;
     border-right: 1px solid rgb(42,193,223);
     border-left:  1px solid rgb(42,193,223);
-    margin-top: 200px;
+    margin-top: 390px;
     }
 
 /************************************* FEWD SECTION *************************************/
@@ -672,6 +742,10 @@
 
 /************************************* PORTFOLIO SECTION *************************************/
 
+
+    .portfolio-skills-hide {
+      display:none;
+    }
     .portfolio-section p {
       color: white;
       text-align: center;
@@ -1194,35 +1268,30 @@ height: 1200px;
         color: rgb(0, 204, 255);
         text-decoration: none;
       }
-      .about-section h4 {
-        font-family: 'Lobster', cursive;
-        color: black;
-        font-size: 30px;
-        line-height: 45px;
-        }
-      .about-section h4 span {
-        font-family: 'Lobster', cursive;
-        color:  rgb(128, 128, 128);
-        font-weight: lighter;
-        font-size: 25px;
-        }
-      .about-section-img img {
-        width: 60px;
-        -webkit-transition: -webkit-transform .5s ease-in-out;
-        transition: transform .5s ease-in-out;
-        cursor: pointer; cursor: hand;
-        }
-      .about-section-img img:hover {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        }
-      .about-section p {
-        font-family: 'Muli', sans-serif;
-        font-weight: 900;
-        color: black;
-        text-align: center;
-        font-size: 11px;
-        }
+
+
+
+
+.about-section h4 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(42,193,223);
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;}
+
+    .about-section p {
+      color: white;
+      text-align: center;
+      font-family: 'Muli', sans-serif;
+      font-weight: 400;
+      max-width: 80%;
+      font-size: 13px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    .about-section p span {
+      color: rgb(240,88,89);
+      }
       #slideshow {
         margin: 20px auto;
         position: relative;
@@ -1364,7 +1433,7 @@ height: 1200px;
     .white-box-01 {
       width: 500px;
       height: 50px;
-      margin-top: 200px;
+      margin-top: 400px;
       }
     .white-box-02 {
       width: 500px;
@@ -1409,10 +1478,22 @@ height: 1200px;
 
 
 
+svg {
+  max-width: 102%;
+  max-height: 102%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 0px;
+  }
+
     .white-box-01 {
       width: 300px;
       height: 50px;
-      margin-top: 250px;
+      margin-top: 375px;
       }
 
     .white-box-02 {

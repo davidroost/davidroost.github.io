@@ -242,19 +242,20 @@
 /************************************* GREETING SECTION *************************************/
 
     .fewd-scroll {
+
 position:relative;
+
+  }
+  .fewd-scroll img {
+    display:block;
+    position:relative;
+z-index: 101;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-/*Arrow hover effect*/
-    .fewd-scroll img:last-child {
-      display: none;
-      }
-    .fewd-scroll:hover img:first-child {
-      display:none;
-      }
-    .fewd-scroll:hover img:last-child {
-      display:inline;
-      }
+
 
 
 /*trace logo intro*/
@@ -269,7 +270,8 @@ svg {
   right: 0;
   bottom: 0;
   margin: auto;
-  padding-top: 200px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 svg path{
   fill-opacity: 0;
@@ -320,8 +322,8 @@ svg #Shadows__x28_positive_x29_ path {
     .video-overlay-color {
       background: rgba(0, 0, 0, 0.4);
       width: 100%;
-      height: 100%;
-      margin-bottom: 50px;
+      height: 200%;
+      /*padding-bottom: -200px;*/
       position: absolute;
       left: 0;
       top: 0;
@@ -466,7 +468,11 @@ svg #Shadows__x28_positive_x29_ path {
     border-left:  1px solid rgb(42,193,223);
     }
 
+.under-skills {
 
+  clear: both;
+  margin-top: 100px;
+}
 
     .fewd-section {
       display: block;
@@ -1497,7 +1503,7 @@ svg #Shadows__x28_positive_x29_ path {
     .white-box-01 {
       width: 300px;
       height: 50px;
-      margin-top: 375px;
+      margin-top: 400px;
       }
 
     .white-box-02 {

@@ -303,9 +303,6 @@ svg #Shadows__x28_positive_x29_ path {
 }
 
 
-
-
-
 /*roost logo effect on hover*/
   /*.greeting-section-img img:last-child {
     display: none;
@@ -1497,7 +1494,7 @@ svg {
   }
 
 svg #Shadows__x28_positive_x29_ path {
-  animation-delay: 10s;
+  animation-delay: 15s;
 }
 
     .white-box-01 {
@@ -1643,6 +1640,13 @@ svg #Shadows__x28_positive_x29_ path {
       width: 80%;
       margin-top:
       }
+.under-skills {
+  max-width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150%;
+  }
+
 
 /*** PORTFOLIO SECTION ***/
 

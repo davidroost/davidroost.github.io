@@ -398,6 +398,7 @@ svg #Shadows__x28_positive_x29_ path {
     width: 100%;
 
     position: fixed;
+    z-index: -6;
     min-height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;

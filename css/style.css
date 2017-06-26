@@ -250,7 +250,7 @@ position:relative;
   .fewd-scroll img {
     display:block;
     position:relative;
-z-index: 101;
+    z-index: 101;
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
@@ -258,6 +258,20 @@ z-index: 101;
 
 
 
+  .greeting-section {
+    height: 675px;
+    background-image: url("../content/sunset-02-DARK.jpg");
+    width: 100%;
+    background-color: white;
+    Z-index: -200;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    }
 
 /*trace logo intro*/
 

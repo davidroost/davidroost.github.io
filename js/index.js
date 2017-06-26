@@ -269,19 +269,3 @@ setInterval(function() {
 
 
 });
-
-// new blue rgb(0, 204, 255);
-// baby-blue:  rgb(155, 218, 252);
-// brown:      rgb(133, 96, 70);
-// red:        rgb(178, 0, 0);
-// red-dark:   rgb(133, 7, 7);
-// off-white:  rgb(255, 241, 200);
-// grey:       rgb(128, 128, 128);
-
-// font guide
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Muli', sans-serif; (200,400,900)
-// font-family: 'Lobster', cursive;
-// font-family: 'Questrial', sans-serif;
-// font-family: 'Pacifico', cursive;
-// font-family: 'Rokkitt', serif; (400,600,800)

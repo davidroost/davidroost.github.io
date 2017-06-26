@@ -352,6 +352,17 @@ svg #Shadows__x28_positive_x29_ path {
       -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
+
+
+    background-image: url("../content/sunset-02-DARK.jpg");
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+
       }
     .black-line #line-2 {
       margin-top: 25px;
@@ -393,20 +404,7 @@ svg #Shadows__x28_positive_x29_ path {
 
 
 
-  .greeting-section {
-    background-image: url("../content/sunset-02-DARK.jpg");
-    width: 100%;
 
-    position: fixed;
-    z-index: -6;
-    min-height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    text-align: center;
-    }
 
 
 

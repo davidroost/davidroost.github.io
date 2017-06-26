@@ -258,20 +258,7 @@ position:relative;
 
 
 
-  .greeting-section {
-    height: 675px;
-    background-image: url("../content/sunset-02-DARK.jpg");
-    width: 100%;
-    background-color: white;
-    Z-index: -200;
-    min-height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    text-align: center;
-    }
+
 
 /*trace logo intro*/
 
@@ -405,6 +392,20 @@ svg #Shadows__x28_positive_x29_ path {
     }*/
 
 
+
+  .greeting-section {
+    background-image: url("../content/sunset-02-DARK.jpg");
+    width: 100%;
+
+    position: fixed;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    }
 
 
 

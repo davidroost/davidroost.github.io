@@ -354,14 +354,14 @@ svg #Shadows__x28_positive_x29_ path {
               transform: translate(-50%, -50%);
 
   /*image behind video*/
-      /*background-image: url("../content/sunset-02-DARK.jpg");
+      background-image: url("../content/sunset-02-DARK.jpg");
       min-height: auto;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
       -o-background-size: cover;
       background-position: center;
-      text-align: center;*/
+      text-align: center;
       }
     .black-line #line-2 {
       margin-top: 25px;
@@ -524,15 +524,15 @@ svg #Shadows__x28_positive_x29_ path {
 
   .tab-01-01 {
     border: 1px solid rgb(240,88,89);
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 40px 0px;
     }
   .tab-01-02 {
     border: 1px solid rgb(42,193,223);
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 40px 0px;
     }
   .tab-01-03 {
     border: 1px solid rgb(240,178,10);
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 40px 0px;
     }
   #tab-01 {
     margin-top: 25px;
@@ -541,7 +541,7 @@ svg #Shadows__x28_positive_x29_ path {
     max-width: 80%;
     }
   #tab-01 p {
-    font-size: 11px;
+    font-size: 13px;
   }
   .tab-01 h1:hover {
     color: white;

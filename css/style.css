@@ -4,22 +4,6 @@
     ways to respond to the size of the screen it's being viewed on. I have chosen to
     use three breakpoints. One for desktop screens, one for tablets, and one for mobile devices.*/
 
-/******* font guide *******/
-    /*font-family: 'Oswald', sans-serif;
-    font-family: 'Muli', sans-serif; (200,400,900)
-    font-family: 'Lobster', cursive;
-    font-family: 'Questrial', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Rokkitt', serif; (400,600,800)*/
-
-/******* color guide *******/
-    /*baby-blue:  rgb(155, 218, 252);
-    brown:      rgb(133, 96, 70);
-    red:        rgb(178, 0, 0);
-    red-dark:   rgb(133, 7, 7);
-    off-white:  rgb(255, 241, 200);
-    grey:       rgb(128, 128, 128);
-    light grey: rgb(203, 203, 203);*/
 
 /************************************* UNIVERSAL STYLING *************************************/
 
@@ -153,7 +137,6 @@
 
     .nav-logo {
       float: left;
-
       margin-left: 20px;
       margin-top: 5px;
       -webkit-transition: -webkit-transform .5s ease-in-out;
@@ -170,8 +153,6 @@
       top: 0;
       width: 100%;
       background-color: rgba(128, 128, 128, 0);
-      /*border-bottom: 2px solid rgba(178,0,0,0);*/
-      /*background-color: transparent;*/
       z-index: 2;
       }
     .wrapper{
@@ -196,9 +177,9 @@
       padding: 5px;
       display: block;
       text-decoration: none;
-      font-weight: bold;
-      font-family: 'Oswald', sans-serif;
-      font-size: 13px;
+      font-family: 'Muli', sans-serif;
+      font-weight: 400;
+      font-size: 11px;
       color: white;
       }
     .david-roost-header {
@@ -318,16 +299,7 @@ svg #Shadows__x28_positive_x29_ path {
 
 
 
-    .video-overlay-color {
-      background: rgba(0, 0, 0, 0.4);
-      width: 100%;
-      height: 200%;
-      /*padding-bottom: -200px;*/
-      position: absolute;
-      left: 0;
-      top: 0;
-      z-index: -3;
-      }
+
     .video-content {
       position: relative;
       top: 30%;
@@ -352,16 +324,6 @@ svg #Shadows__x28_positive_x29_ path {
       -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
-
-  /*image behind video*/
-      /*background-image: url("../content/sunset-02-DARK.jpg");
-      min-height: auto;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-      -o-background-size: cover;
-      background-position: center;
-      text-align: center;*/
       }
     .black-line #line-2 {
       margin-top: 25px;
@@ -395,58 +357,6 @@ svg #Shadows__x28_positive_x29_ path {
       font-size: 30px;
       }
 
-
-    /*.greeting-section-img img {
-      width: 400px;
-      margin-top: 20px;
-    }*/
-
-
-
-
-
-
-
-
-
-
-      /*hide for video*/
-    /*.greeting-section-img img {
-      width: 400px;
-      margin-top: 10px;
-      -webkit-transition: -webkit-transform .5s ease-in-out;
-      transition: transform .5s ease-in-out;
-      cursor: pointer; cursor: hand;
-      }*/
-    /*.greeting-section {
-      background-image: url("../content/greeting-background-00-desktop.png");
-      width: 100%;
-      padding-top: 50px;
-      background-color: white;
-      min-height: auto;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-      -o-background-size: cover;
-      background-position: center;
-      text-align: center;
-      }*/
-
-
-    /*.greeting-section {
-      display: block;
-      margin-top: 42px;
-      height: 1000px;
-      border-bottom-left-radius: 100px;
-      border-bottom-right-radius: 100px;
-      }*/
-
-/*end hide for video*/
-
-    /*.greeting-section-img img:hover {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-      }*/
 
   .greeting-section p {
     font-family: 'Muli', sans-serif;
@@ -515,11 +425,6 @@ svg #Shadows__x28_positive_x29_ path {
     margin-bottom: 85px;
 
     }
-
-
-
-
-
 
 
   .tab-01-01 {
@@ -838,10 +743,6 @@ svg #Shadows__x28_positive_x29_ path {
   button#skill-button:hover {
     background-color: rgb(240,88,89);
     }
-
-
-
-
 
 
 
@@ -1743,10 +1644,7 @@ height: 1200px;
         float: none;
         }
 
-
-
  @media screen and (max-width:400px){
-
 
   .tab-01 {
     width: 100%;

@@ -1,24 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*David Roost Creative Website - Author: David Roost*/
 
 $(document).ready(function(){
 
@@ -31,8 +11,6 @@ for(var i = 0; i<sources.length;i++) {
 }
 // If for some reason we do want to load the video after, for desktop as opposed to mobile (I'd imagine), use videojs API to load
 video.load();
-
-
 
 
   $("nav ul li:first-child").click(function(){
@@ -52,10 +30,6 @@ video.load();
   slideDown()
 
   */
-
-
-
-
 
 // scroll menu :)
 
@@ -266,6 +240,4 @@ setInterval(function() {
 
       });
   });
-
-
 });

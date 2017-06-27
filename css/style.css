@@ -353,15 +353,15 @@ svg #Shadows__x28_positive_x29_ path {
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
 
-
-      background-image: url("../content/sunset-02-DARK.jpg");
+  /*image behind video*/
+      /*background-image: url("../content/sunset-02-DARK.jpg");
       min-height: auto;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
       -o-background-size: cover;
       background-position: center;
-      text-align: center;
+      text-align: center;*/
       }
     .black-line #line-2 {
       margin-top: 25px;

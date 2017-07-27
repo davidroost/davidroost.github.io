@@ -3,6 +3,17 @@
 $(document).ready(function(){
 
 
+
+// pre-page loader
+	setTimeout(function(){
+		$('body').addClass('loaded');
+	}, 6000);
+
+
+
+
+
+
 var sources = document.querySelectorAll('video#my-video source');
 // Define the video object this source is contained inside
 var video = document.querySelector('video#my-video');

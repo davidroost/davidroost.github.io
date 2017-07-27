@@ -1521,7 +1521,7 @@ height: 1200px;
     .mobile-break {
       display:block;
       }
-    svg {
+  .video-content svg {
       max-width: 102%;
       max-height: 102%;
       position: absolute;
@@ -1532,7 +1532,7 @@ height: 1200px;
       margin: auto;
       padding-top: 0px;
       }
-    svg #Shadows__x28_positive_x29_ path {
+    .video-content svg #Shadows__x28_positive_x29_ path {
       animation-delay: 9s;
       }
     .white-box-01 {

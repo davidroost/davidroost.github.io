@@ -368,7 +368,7 @@ position:relative;
 /*trace logo intro*/
 
 
-svg {
+.video-content svg {
   max-width: 250%;
   max-height: 250%;
   position: absolute;
@@ -380,7 +380,7 @@ svg {
   margin-top: 0px;
   margin-bottom: 50px;
 }
-svg path{
+.video-content svg path{
   fill-opacity: 0;
   fill: #fff !important;
   stroke: rgb(42,193,223);
@@ -393,7 +393,7 @@ svg path{
   animation-fill-mode: forwards;
   animation-timing-function: linear;
 }
-svg #Shadows__x28_positive_x29_ path {
+.video-content svg #Shadows__x28_positive_x29_ path {
   animation-delay: 9s;
 }
 
@@ -402,11 +402,11 @@ svg #Shadows__x28_positive_x29_ path {
     stroke-dashoffset: 0;
     stroke-width: 2;
     fill-opacity: 0;
-  }
+    }
   100% {
     stroke-width: 0;
     fill-opacity: 1;
-  }
+    }
 }
 
 

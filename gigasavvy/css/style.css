@@ -97,7 +97,7 @@ Slider
   background-size: cover;
 }
 .cd-slider .content {
-  padding: 30px;
+  padding: 20px;
   color: #ffffff;
   background-color: #767070;
   -webkit-font-smoothing: antialiased;
@@ -121,24 +121,29 @@ Slider
 .no-touch .cd-slider .btn:hover {
   background: rgba(0, 0, 0, 0.6);
 }
-.cd-slider li:nth-of-type(2) .content {
+/*.cd-slider li:nth-of-type(2) .content {
   background-color: #ccd0c1;
 }
 .cd-slider li:nth-of-type(3) .content {
   background-color: #f3b96c;
 }
 .cd-slider li:nth-of-type(4) .content {
-  background-color: #f46c6a;
+  background-color: #f46c6a;*/
 }
 .cd-slider h2 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   margin-bottom: .4em;
 }
 .cd-slider p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
-.cd-slider h2, .cd-slider p {
-  line-height: 1.4;
+
+.cd-slider h2 {
+  line-height: 1.8rem;
+
+}
+ .cd-slider p {
+  line-height: 1.2rem;
 }
 @media only screen and (min-width: 900px) {
   .cd-slider li {

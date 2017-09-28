@@ -59,3 +59,17 @@ jQuery(document).ready(function($){
 		return ( container.parents('.touch').length > 0 );
 	}
 });
+
+
+// pre-page loader
+
+
+$(document).ready(function(){
+
+
+
+	setTimeout(function(){
+		$('body').addClass('loaded');
+	}, 6000);
+
+});

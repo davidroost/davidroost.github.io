@@ -33,7 +33,7 @@ video.load();
   $("nav ul li a").click(function(){
       console.log("hamburger menu clicked!");
       // $("ul li a").slideToggle();
-      $("nav").toggleClass(".class");
+      $("nav").toggleClass("open");
   });
   /*
 

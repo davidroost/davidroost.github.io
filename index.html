@@ -50,7 +50,7 @@
 <body id="page-top">
 
 <!-- pre-page-loader-container -->
-		<!-- <div id="loader-wrapper">
+		<div id="loader-wrapper">
 
 			<div id="loader">
 
@@ -91,7 +91,7 @@
 			<div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
 
-		</div> -->
+		</div>
 
   <div id="container">
 <!-- ********************** NAVIGATION SECTION ********************** -->
@@ -109,7 +109,7 @@
               <div class="line"></div>
             </li>
             <li><a href="#greeting-section" title="greeting-section">HOME</a></li>
-            <li><a href="#fewd-section" title="fewd-section">ABOUT</a></li>
+            <li><a href="#fewd-section" title="fewd-section" onclick="myFunction(("nav").toggleClass("open"))">ABOUT</a></li>
             <li><a href="#current-work" title="current-work">CURRENT WORK</a></li>
             <li><a href="#passion-project" title="passion-project">PASSION PROJECT</a></li>
             <li><a href="#portfolio-section" title="portfolio-section">PORTFOLIO</a></li>
@@ -191,6 +191,18 @@
     <div class="white-box-02">
     </div>
     <section class="fewd-section" id="fewd-section">
+
+      <br><br><br><br><br><br><br>
+      <section class="fewd-text">
+        <div class="section-head-line">
+          <div class="header-full"><h1>&nbsp;&nbsp;&nbsp;ABOUT ME&nbsp;&nbsp;&nbsp;</h1></div>
+          <div class="header-mobile"><h1>ABOUT ME</h1></div>
+          <hr class="black-5px-full">
+        </div>
+    </section>
+
+
+
       <p>&nbsp</p><br><br><br><br>
       <hr class="freddys-red-line" id="line-2">
       <br><br>
@@ -335,8 +347,8 @@
 
 <!-- ***********CURRENT WORK Sub-Section - Beginning*********** -->
 
-<br><br><br><br><br><br><br>
-
+<section id="current-work">
+        <br><br><br><br><br><br><br>
         <section class="fewd-text">
           <div class="section-head-line">
             <div class="header-full"><h1>&nbsp;&nbsp;&nbsp;CURRENT WORK&nbsp;&nbsp;&nbsp;</h1></div>
@@ -345,29 +357,8 @@
           </div>
       </section>
       <br><br><br><br>
-      <!-- <br><br><br> -->
-      <!-- <p>In my current role as Lead Front-End Developer,
-        <br><br>
-        We just launched our first app in January 2018.
-      </p>
-      <br><br>
-      <img alt="david roost" alt="david roost" class="nano-ref-logo" src="content/current/nano-ref-logo-small-200px.svg">
-      <br><br>
-      <p>This industry disrupting software was designed
-        <br><br>
-        for the niche market of compounding pharmacists.
-        <br><br><br><br>
-        Our goal was to provide a simple, fast and beautiful new way to
-        <br><br>
-        access vital data in mere seconds in the demanding
-        <br><br>
-        and competitive world of health care professionals.
-      </p>
-      <br><br> -->
 
 
-
-<section id="current-work">
       <div id="tab-01">
         <section class="tab-01">
           <!-- <br><br><br> -->
@@ -405,72 +396,7 @@
           </p>
         </section>
         </div>
-  <br><br><br>
-          <!-- <br><br><br><br><br>
-          <p>To go along with my design skills,
-            <br class="mobile-break">
-            <br class="mobile-break">
-            my toolbox is now filled
-            <br><br>
-            with acronyms you might have
-            <br class="mobile-break">
-            <br class="mobile-break">heard of such as:</p>
-          <br><br><br><br><br>
-          <hr class="red-line-fewd">
-              <div id="tab">
-                <section class="tab">
-                  <h1><&nbsp HTML5 &nbsp></h1>
-                  </section>
-                <section class="tab">
-                  <h1>{&nbsp CSS3 &nbsp}</h1>
-                  </section>
-                <section class="tab">
-                  <h1>(&nbsp &nbsp JS &nbsp &nbsp)</h1>
-                  </section>
-                </div>
-
-          <br><br>
-          <section class="fewd-text">
-            <br>
-            <hr class="red-line-fewd">
-            <br><br><br><br>
-            <a href="https://github.com/davidroost/davidroost.github.io"><h4><span>TO VIEW MY CODE:&nbsp </span>VISIT MY GITHUB PAGE </h4></a>
-            <br>
-            <button id="fewd-button" value="View Under The Hood"> TAKE A LOOK UNDER THE HOOD</button>
-
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="closefewd">&times;</span>
-
-                                <h3>UNDER THE HOOD</h3>
-                                <br>
-                                <hr class="freddys-blue-line-70">
-                                <br><br>
-                                <p>This screen capture is a sneak preview of the guts that make up this website. <br><br>This is what code looks like, and these weird words that don't make any sense are <br>what come together to create something beautiful.
-                                <br><br><br>
-                                <hr class="white-line">
-                                <br>
-                                <a href="https://github.com/davidroost/davidroost.github.io"><h4>VIEW THE FULL CODE ON MY GITHUB PAGE HERE</h4></a>
-                                <br>
-                                <hr class="white-line">
-                                <br>
-                                <div class="modaltallpic"><img alt="david roost" src="content/Screen-Shot-2017-05-02.png"></div>
-                                <br><br><p>The image on the bottom is my initial sketch of this website. Before I had written any code at all.<br><br>It took dozens of iterations for me to perfect this site, and I like seeing where it all started.</p><br><br>
-
-                                <div class="modaltallpic"><img alt="david roost" src="content/mockup.JPG"></div>
-                                <br><br>
-                                <span class="closefewdbottom">CLOSE WINDOW</span>
-                      </div>
-                </div>
-
-          </section> -->
-
-
-
-
-
-
-
+        <br><br><br>
 
           <!-- Swiper -->
           <div class="swiper-container">
@@ -487,17 +413,6 @@
               <div class="swiper-slide">
                 <div class="slide-content slide-04"></div>
               </div>
-
-<!--
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
-              <div class="swiper-slide">Slide 10</div> -->
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
@@ -536,6 +451,7 @@
 
 
 <!-- ***********PASSION PROJECT Sub-Section - Beginning*********** -->
+<section id="passion-project">
 
 <br><br><br><br><br><br><br>
 
@@ -547,29 +463,10 @@
           </div>
       </section>
       <br><br><br><br>
-      <!-- <br><br><br> -->
-      <!-- <p>In my current role as Lead Front-End Developer,
-        <br><br>
-        We just launched our first app in January 2018.
-      </p>
-      <br><br>
-      <img alt="david roost" class="nano-ref-logo" src="content/current/nano-ref-logo-small-200px.svg">
-      <br><br>
-      <p>This industry disrupting software was designed
-        <br><br>
-        for the niche market of compounding pharmacists.
-        <br><br><br><br>
-        Our goal was to provide a simple, fast and beautiful new way to
-        <br><br>
-        access vital data in mere seconds in the demanding
-        <br><br>
-        and competitive world of health care professionals.
-      </p>
-      <br><br> -->
 
 
 
-<section id="passion-project">
+
       <div id="tab-01">
         <section class="tab-01">
           <!-- <br><br><br> -->
@@ -605,64 +502,7 @@
         </section>
         </div>
   <br><br><br>
-          <!-- <br><br><br><br><br>
-          <p>To go along with my design skills,
-            <br class="mobile-break">
-            <br class="mobile-break">
-            my toolbox is now filled
-            <br><br>
-            with acronyms you might have
-            <br class="mobile-break">
-            <br class="mobile-break">heard of such as:</p>
-          <br><br><br><br><br>
-          <hr class="red-line-fewd">
-              <div id="tab">
-                <section class="tab">
-                  <h1><&nbsp HTML5 &nbsp></h1>
-                  </section>
-                <section class="tab">
-                  <h1>{&nbsp CSS3 &nbsp}</h1>
-                  </section>
-                <section class="tab">
-                  <h1>(&nbsp &nbsp JS &nbsp &nbsp)</h1>
-                  </section>
-                </div>
 
-          <br><br>
-          <section class="fewd-text">
-            <br>
-            <hr class="red-line-fewd">
-            <br><br><br><br>
-            <a href="https://github.com/davidroost/davidroost.github.io"><h4><span>TO VIEW MY CODE:&nbsp </span>VISIT MY GITHUB PAGE </h4></a>
-            <br>
-            <button id="fewd-button" value="View Under The Hood"> TAKE A LOOK UNDER THE HOOD</button>
-
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="closefewd">&times;</span>
-
-                                <h3>UNDER THE HOOD</h3>
-                                <br>
-                                <hr class="freddys-blue-line-70">
-                                <br><br>
-                                <p>This screen capture is a sneak preview of the guts that make up this website. <br><br>This is what code looks like, and these weird words that don't make any sense are <br>what come together to create something beautiful.
-                                <br><br><br>
-                                <hr class="white-line">
-                                <br>
-                                <a href="https://github.com/davidroost/davidroost.github.io"><h4>VIEW THE FULL CODE ON MY GITHUB PAGE HERE</h4></a>
-                                <br>
-                                <hr class="white-line">
-                                <br>
-                                <div class="modaltallpic"><img alt="david roost" src="content/Screen-Shot-2017-05-02.png"></div>
-                                <br><br><p>The image on the bottom is my initial sketch of this website. Before I had written any code at all.<br><br>It took dozens of iterations for me to perfect this site, and I like seeing where it all started.</p><br><br>
-
-                                <div class="modaltallpic"><img alt="david roost" src="content/mockup.JPG"></div>
-                                <br><br>
-                                <span class="closefewdbottom">CLOSE WINDOW</span>
-                      </div>
-                </div>
-
-          </section> -->
 
 
 
@@ -677,6 +517,7 @@
 <div class="insta-feed">
   <iframe style="margin-left:auto; margin-right:auto;" width="100%" height="450px" src="https://www.youtube.com/embed/ad76oH3FX0A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <br><br>
+  <!-- https://lightwidget.com/?username=roostmade -->
   <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/266ca88dc26b51f7aaf10dfad717ea70.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 </div>
 
@@ -717,6 +558,7 @@
 
 <!-- ********************** PORTFOLIO SECTION ********************** -->
     <section class="portfolio-section" id="portfolio-section">
+      <br><br><br><br>
 
       <div class="section-head-line">
         <div class="header-full"><h6>&nbsp;&nbsp;&nbsp;PORTFOLIO&nbsp;&nbsp;&nbsp;</h6></div>
@@ -2165,6 +2007,16 @@
     });
   </script>
 <!-- Script for the swpier - End -->
+
+
+
+<script>
+
+function HM (){
+    $(".nav").toggleClass("open");
+
+});
+</script>
 
 
 </body>

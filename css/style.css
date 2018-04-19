@@ -1050,8 +1050,8 @@ background-image: url(../content/david-roost-headshot-2018.jpg);
       .portfolio-category:last-of-type {
         margin-bottom: 10px;
         }
-      #davidroostcreative {
-        background-image: url('../content/drc-drop-in.png');}
+      /* #davidroostcreative {
+        background-image: url('../content/drc-drop-in.png');} */
       #connectthedoc {
         background-image: url('../content/3-A Draft-02.png');}
       #sea-b {
@@ -1075,7 +1075,7 @@ background-image: url(../content/david-roost-headshot-2018.jpg);
       #erica {
         background-image: url('../content/erica-01.jpg');}
       #fs {
-        background-image: url('../content/fs-helmet-small.png');}
+        background-image: url('../content/fs-helmet-small.jpg');}
       #zonazoo {
         background-image: url('../content/zona-zoo-01.png');}
       #dog-pound {

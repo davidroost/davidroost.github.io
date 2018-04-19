@@ -347,11 +347,9 @@
 
 /************************************* GREETING SECTION *************************************/
 
-    .fewd-scroll {
-
-position:relative;
-
-  }
+  .fewd-scroll {
+    position:relative;
+    }
   .fewd-scroll img {
     display:block;
     position:relative;
@@ -362,7 +360,27 @@ position:relative;
   }
 
 
+.headshot {
+  height: 200px;
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+background-position: center;
+border-radius:100px;
+border:2px solid white;
+background-image: url(../content/david-roost-headshot-2018.jpg);
 
+
+
+
+}
 
 
 /*trace logo intro*/

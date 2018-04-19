@@ -795,6 +795,7 @@ position:relative;
   .swiper-container {
     width: 100%;
     height: 650px;
+    background-position: center;
     background-image: url('../content/current/nano-ref-swiper-00.jpg');
     }}
     /* -webkit-background-size: cover;
@@ -802,7 +803,7 @@ position:relative;
     background-size: cover;
     -o-background-size: cover;
     background-position: center; */
-    
+
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -844,12 +845,40 @@ position:relative;
     -o-background-size: cover;
     background-position: center;
     }
+  .nano-ref-logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+    cursor: pointer; cursor: hand;
+    }
+
+
 
 
  @media screen and (max-width:768px){
 
 
-
+   .swiper-container {
+     height: 400px;
+     background-image: url('../content/current/nano-ref-swiper-small-00.jpg');
+     }
+   .slide-01 {
+     background-image: url(../content/current/nano-ref-swiper-small-01.png);
+     }
+   .slide-02 {
+     background-image: url(../content/current/nano-ref-swiper-small-02.png);
+     }
+   .slide-03 {
+     background-image: url(../content/current/nano-ref-swiper-small-03.png);
+     }
+   .slide-04 {
+     background-image: url(../content/current/nano-ref-swiper-small-04.png);
+     }
 
  }
 

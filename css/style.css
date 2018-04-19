@@ -457,7 +457,7 @@ background-image: url(../content/david-roost-headshot-2018.jpg);
       position: fixed;
       left: 50%;
       margin-top: 50px;
-      top: 260px;
+      top: 112px;
       z-index: -4;
       min-width: 100%;
       min-height: 635px;
@@ -1646,8 +1646,8 @@ background-image: url(../content/david-roost-headshot-2018.jpg);
       display:block;
       }
   .video-content svg {
-      max-width: 100%;
-      max-height: 102%;
+    max-width: 100%;
+    max-height: 150%;
       position: absolute;
       top: 0;
       left: 0;

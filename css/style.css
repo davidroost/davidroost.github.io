@@ -1088,9 +1088,9 @@ background-image: url(../content/david-roost-headshot-2018.jpg);
         background-image: url('../content/elm-01.jpg');}
       #sycamore {
         background-image: url('../content/sycamore-01.jpg');}
-      .portfolio-box {
+      /* .portfolio-box {
         visibility: hidden;
-        }
+        } */
 /*********** FADE IN EFFECT ON PORTFOLIO IMAGES ***********/
 
             .fadeIn {

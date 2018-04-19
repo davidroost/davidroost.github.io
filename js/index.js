@@ -24,6 +24,8 @@ for(var i = 0; i<sources.length;i++) {
 video.load();
 
 
+
+// Nav Bar Drop Down On Mobile
   $("nav ul li:first-child").click(function(){
       console.log("hamburger menu clicked!");
       // $("ul li a").slideToggle();
@@ -35,14 +37,9 @@ video.load();
       // $("ul li a").slideToggle();
       $("nav").toggleClass("open");
   });
-  /*
 
-  toggle()
-  slideDown()
 
-  */
-
-// scroll menu :)
+// scroll menu down  :)
 
 $(".menu li a").click(function(e) {
     e.preventDefault();
@@ -137,27 +134,29 @@ $('.fewd-scroll').click(function(e) {
 
 // fade in images in portfolio boxes
 
-      function showImages(el) {
-          var windowHeight = jQuery( window ).height();
-          $(el).each(function(){
-              var thisPos = $(this).offset().top;
-
-              var topOfWindow = $(window).scrollTop();
-              if (topOfWindow + windowHeight - 200 > thisPos ) {
-                  $(this).addClass("fadeIn");
-              }
-          });
-      }
+      // function showImages(el) {
+      //     var windowHeight = jQuery( window ).height();
+      //     $(el).each(function(){
+      //         var thisPos = $(this).offset().top;
+			//
+      //         var topOfWindow = $(window).scrollTop();
+      //         if (topOfWindow + windowHeight - 200 > thisPos ) {
+      //             $(this).addClass("fadeIn");
+      //         }
+      //     });
+      // }
 
       // if the image in the window of browser when the page is loaded, show that image
-      $(document).ready(function(){
-          showImages('.portfolio-box');
-      });
+      // $(document).ready(function(){
+      //     showImages('.portfolio-box');
+      // });
 
       // if the image in the window of browser when scrolling the page, show that image
-      $(window).scroll(function() {
-          showImages('.portfolio-box');
-      });
+      // $(window).scroll(function() {
+      //     showImages('.portfolio-box');
+      // });
+
+
 
 // nav background color change on scroll
       $(document).ready(function () {
@@ -170,22 +169,9 @@ $('.fewd-scroll').click(function(e) {
           });
       });
 
-// publication viewer
 
 
-// slideshow
-$("#slideshow > div:gt(0)").hide();
 
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
-
-// slideshow fade out on scroll
 
 
 // fewd popup section
@@ -229,26 +215,5 @@ setInterval(function() {
             }
 
 
-// fade in greeting text
 
-  $(function() {
-      $(window).scroll( function(){
-
-          $('.fadeInBlock').each( function(i){  // This is whats slowing down the loading of the site
-
-              var bottom_of_object = $(this).position().top + $(this).outerHeight();
-              var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-              /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
-              bottom_of_window = bottom_of_window + 10;
-
-              if( bottom_of_window > bottom_of_object ){
-
-                  $(this).animate({'opacity':'1'},200);
-
-              }
-          });
-
-      });
-  });
 });

@@ -132,30 +132,6 @@ $('.fewd-scroll').click(function(e) {
         return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
       };
 
-// fade in images in portfolio boxes
-
-      // function showImages(el) {
-      //     var windowHeight = jQuery( window ).height();
-      //     $(el).each(function(){
-      //         var thisPos = $(this).offset().top;
-			//
-      //         var topOfWindow = $(window).scrollTop();
-      //         if (topOfWindow + windowHeight - 200 > thisPos ) {
-      //             $(this).addClass("fadeIn");
-      //         }
-      //     });
-      // }
-
-      // if the image in the window of browser when the page is loaded, show that image
-      // $(document).ready(function(){
-      //     showImages('.portfolio-box');
-      // });
-
-      // if the image in the window of browser when scrolling the page, show that image
-      // $(window).scroll(function() {
-      //     showImages('.portfolio-box');
-      // });
-
 
 
 // nav background color change on scroll

@@ -1037,7 +1037,9 @@ position:relative;
       #connectthedoc {
         background-image: url('../content/3-A Draft-02.png');}
       #sea-b {
-        background-image: url('../content/sea-b-image-01.png');}
+        background-image: url('../content/sea-b-image-00.png');}
+      #canyon-view {
+        background-image: url('../content/canyon-view-image-00.png');}
       #sf-city {
         background-image: url('../content/sf-city.png');}
       #ali {
@@ -1331,10 +1333,10 @@ position:relative;
         padding-top: 70px;
         clear: both;
         display: block;
-        background-image: url("../content/about-bk.png");
+        background-image: url("../content/about-bk.jpg");
         width: 100%;
         background-color: rgb(51,51,51);
-height: 1200px;
+        height: 1200px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1838,6 +1840,12 @@ height: 1200px;
                 display: none;
                 }
 
+
+/* ***Contact Section*** */
+
+.contact-section {
+    margin-bottom: -50px;
+  }
 /*** ABOUT SECTION ***/
 
       .about-section h4 {
@@ -1846,6 +1854,10 @@ height: 1200px;
         font-size: 20px;
         }
 
+        .about-section {
+          padding-top:0px;
+          height: 800px;
+        }
     /*** FORM WITHIN ABOUT SECTION ***/
     /*** (THIS WAS LATER REMOVED, BUT I'M KEEPING THE CODE HIDDEN HERE IF I EVER WANT TO BRING IT BACK )***/
       .form-section {

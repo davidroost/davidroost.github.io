@@ -3,6 +3,7 @@
 $(document).ready(function(){
 
 	var bLazy = new Blazy({
+	    selector: '.b-lazy',
 
 	});
 

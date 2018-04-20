@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 	var bLazy = new Blazy({
 	    selector: '.b-lazy',
-
+			offset: 1
 	});
 
 // pre-page loader
@@ -170,6 +170,12 @@ $('.fewd-scroll').click(function(e) {
                 portfolio_box_id="#"+$(this).attr("id");
 
                 $(portfolio_box_popup_id).slideFadeToggle();
+
+								var bLazy = new Blazy({
+								    selector: '.b-lazy',
+											offset: 1
+								});
+
             }
             return false;
             });

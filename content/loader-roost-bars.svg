@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="225"
+   height="225"
+   viewBox="0 0 277.77778 277.77778"
+   preserveAspectRatio="xMidYMid"
+   class="lds-facebook"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="loader-roost-bars.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="1.4567901"
+     inkscape:cx="141.11509"
+     inkscape:cy="64.915694"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <rect
+     ng-attr-x="{{config.x1}}"
+     ng-attr-y="{{config.y}}"
+     ng-attr-width="{{config.width}}"
+     ng-attr-height="{{config.height}}"
+     ng-attr-fill="{{config.c1}}"
+     x="107.38889"
+     y="116.0935"
+     width="13"
+     height="45.5909"
+     id="rect2"
+     style="fill:#2ac1df">
+    <animate
+       attributeName="y"
+       calcMode="spline"
+       values="18;30;30"
+       keyTimes="0;0.5;1"
+       dur="0.8"
+       keySplines="0 0.5 0.5 1;0 0.5 0.5 1"
+       begin="-0.16000000000000003s"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="height"
+       calcMode="spline"
+       values="64;40;40"
+       keyTimes="0;0.5;1"
+       dur="0.8"
+       keySplines="0 0.5 0.5 1;0 0.5 0.5 1"
+       begin="-0.16000000000000003s"
+       repeatCount="indefinite" />
+  </rect>
+  <rect
+     ng-attr-x="{{config.x2}}"
+     ng-attr-y="{{config.y}}"
+     ng-attr-width="{{config.width}}"
+     ng-attr-height="{{config.height}}"
+     ng-attr-fill="{{config.c2}}"
+     x="132.38889"
+     y="114.95541"
+     width="13"
+     height="47.867001"
+     id="rect4"
+     style="fill:#2cccec">
+    <animate
+       attributeName="y"
+       calcMode="spline"
+       values="20.999999999999996;30;30"
+       keyTimes="0;0.5;1"
+       dur="0.8"
+       keySplines="0 0.5 0.5 1;0 0.5 0.5 1"
+       begin="-0.08000000000000002s"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="height"
+       calcMode="spline"
+       values="58.00000000000001;40;40"
+       keyTimes="0;0.5;1"
+       dur="0.8"
+       keySplines="0 0.5 0.5 1;0 0.5 0.5 1"
+       begin="-0.08000000000000002s"
+       repeatCount="indefinite" />
+  </rect>
+  <rect
+     ng-attr-x="{{config.x3}}"
+     ng-attr-y="{{config.y}}"
+     ng-attr-width="{{config.width}}"
+     ng-attr-height="{{config.height}}"
+     ng-attr-fill="{{config.c3}}"
+     x="157.38889"
+     y="112.88889"
+     width="13"
+     height="52"
+     id="rect6"
+     style="fill:#25abc5">
+    <animate
+       attributeName="y"
+       calcMode="spline"
+       values="24;30;30"
+       keyTimes="0;0.5;1"
+       dur="0.8"
+       keySplines="0 0.5 0.5 1;0 0.5 0.5 1"
+       begin="0s"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="height"
+       calcMode="spline"
+       values="52;40;40"
+       keyTimes="0;0.5;1"
+       dur="0.8"
+       keySplines="0 0.5 0.5 1;0 0.5 0.5 1"
+       begin="0s"
+       repeatCount="indefinite" />
+  </rect>
+</svg>

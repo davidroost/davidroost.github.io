@@ -377,14 +377,9 @@
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  -webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-background-position: center;
-border-radius:100px;
-border:2px solid white;
-background-image: url(../content/david-roost-headshot-2018.jpg);
+  border-radius:100px;
+  border:2px solid white;
+/* background-image: url(../content/david-roost-headshot-2018.jpg); */
 
 
 

@@ -204,38 +204,34 @@ $('.fewd-scroll').click(function(e) {
 // faster youtube embed
 
 
+( function() {
 
-    /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
+	var youtube = document.querySelectorAll( ".youtube" );
 
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
+	for (var i = 0; i < youtube.length; i++) {
 
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
+		var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
 
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
+		var image = new Image();
+				image.src = source;
+				image.addEventListener( "load", function() {
+					youtube[ i ].appendChild( image );
+				}( i ) );
 
+				youtube[i].addEventListener( "click", function() {
+
+					var iframe = document.createElement( "iframe" );
+
+							iframe.setAttribute( "frameborder", "0" );
+							iframe.setAttribute( "allowfullscreen", "" );
+							iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+							this.innerHTML = "";
+							this.appendChild( iframe );
+				} );
+	};
+
+} )();
 
 
 });

@@ -2,7 +2,11 @@
 
 $(document).ready(function(){
 
-
+	var bLazy = new Blazy({
+	  success: function(){
+	    updateCounter();
+	  }
+	});
 
 // pre-page loader
 	setTimeout(function(){

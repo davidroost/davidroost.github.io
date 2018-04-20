@@ -1201,6 +1201,16 @@ background-image: url(../content/david-roost-headshot-2018.jpg);
         margin-left: auto;
         margin-right: auto;
         }
+
+        @media screen and (min-width:2500px){
+          .popup-content {
+
+            width: 50%;
+
+            }
+
+        }
+
       .popup-left {
         float: right;
         width: calc(69% - 10px);
